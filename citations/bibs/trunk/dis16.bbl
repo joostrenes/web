@@ -1,0 +1,123 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CHR{\etalchar{+}}16}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[CHH16]{colesky2016strategies}
+Michael Colesky, Jaap-Henk Hoepman and Christiaan Hillen.
+\newblock A critical analysis of privacy design strategies.
+\newblock In \emph{2016 International Workshop on Privacy Engineering –
+  IWPE'16}, pages 33--40. San Jose, CA, USA, May 26 2016.
+
+\bibitem[CHR{\etalchar{+}}16]{CHRSS16}
+Ming-Shing Chen, Andreas H\"ulsing, Joost Rijneveld, Simona Samardjiska and
+  Peter Schwabe.
+\newblock From 5-pass {MQ}-based identification to {MQ}-based signatures.
+\newblock In \emph{Advances in Cryptology -- {ASIACRYPT 2016}} (edited by
+  Jung~Hee Cheon and Tsuyoshi Takagi), volume 10032 of \emph{LNCS}, pages
+  135--165. Springer, 2016.
+\newblock \doi{10.1007/978-3-662-53890-6_5}.
+
+\bibitem[HHJ16]{hansen2015maturity}
+Marit Hansen, Jaap-Henk Hoepman and Meiko Jensen.
+\newblock Towards measuring maturity of privacy-enhancing technologies.
+\newblock In \emph{Annual Privacy Forum (APF 2015)}, {LNCS}9484, pages 3--20.
+  2016.
+
+\bibitem[HK16]{ifipsec2016}
+J.-H. Hoepman and Stefan Katzenbeisser (editors).
+\newblock \emph{ICT Systems Security and Privacy Protection. 31st IFIP TC 11
+  International Conference, SEC 2016, Ghent, Belgium, May 30 - June 1, 2016,
+  Proceedings}, volume 471 of \emph{IFIP Advances in Information and
+  Communication Technology}. Springer, 2016.
+
+\bibitem[HRS16a]{HRS16a}
+Andreas H\"ulsing, Joost Rijneveld and Peter Schwabe.
+\newblock {ARMed SPHINCS} -- computing a 41{KB} signature in 16{KB} of {RAM}.
+\newblock In \emph{Public Key Cryptography -- {PKC 2016}} (edited by Giuseppe
+  Persiano and Bo-Yin Yang), volume 9614 of \emph{LNCS}, pages 446--470.
+  Springer, 2016.
+\newblock \doi{10.1007/978-3-662-49384-7_17}.
+
+\bibitem[HRS16b]{HRS16b}
+Andreas H\"ulsing, Joost Rijneveld and Fang Song.
+\newblock Mitigating multi-target attacks in hash-based signatures.
+\newblock In \emph{Public Key Cryptography -- {PKC 2016}} (edited by Giuseppe
+  Persiano and Bo-Yin Yang), volume 9614 of \emph{LNCS}, pages 387--416.
+  Springer, 2016.
+\newblock \doi{10.1007/978-3-662-49384-7_15}.
+
+\bibitem[LEH16a]{lueks2015revocable-cases}
+Wouter Lueks, Maarten Everts and Jaap-Henk Hoepman.
+\newblock Revocable privacy: Principles, use cases, and technologies.
+\newblock In \emph{Annual Privacy Forum (APF 2015)}, {LNCS}9484, pages
+  124--143. 2016.
+
+\bibitem[LEH16b]{LueksEH16}
+Wouter Lueks, Maarten Everts and Jaap-Henk Hoepman.
+\newblock Vote to link: recovering from misbehaving anonymous users.
+\newblock In \emph{Workshop on Privacy in the Electronic Society (WPES 2016)},
+  pages 111--122. Vienna, Austria, October 24 2016.
+\newblock \doi{https://doi.org/10.1145/2994620.2994634}.
+
+\bibitem[MRB16]{MRB16}
+Pedro Maat~C. Massolino, Joost Renes and Lejla Batina.
+\newblock Implementing complete formulas on weierstrass curves in hardware.
+\newblock In \emph{Security, Privacy, and Applied Cryptography Engineering: 6th
+  International Conference, SPACE 2016, Hyderabad, India, December 14-18, 2016,
+  Proceedings}, pages 89--108. Springer International Publishing, 2016.
+\newblock ISBN 978-3-319-49445-6.
+\newblock \doi{10.1007/978-3-319-49445-6_5}.
+
+\bibitem[RCB16]{RCB16}
+Joost Renes, Craig Costello and Lejla Batina.
+\newblock Complete addition formulas for prime order elliptic curves.
+\newblock In \emph{Advances in Cryptology - {EUROCRYPT} 2016 - 35th Annual
+  International Conference on the Theory and Applications of Cryptographic
+  Techniques, Vienna, Austria, May 8-12, 2016, Proceedings, Part {I}}, pages
+  403--428. 2016.
+\newblock \doi{10.1007/978-3-662-49890-3_16}.
+
+\bibitem[RSSB16]{RSSB16}
+Joost Renes, Peter Schwabe, Benjamin Smith and Lejla Batina.
+\newblock $\mu$kummer: Efficient hyperelliptic signatures and key exchange on
+  microcontrollers.
+\newblock In \emph{Cryptographic Hardware and Embedded Systems - {CHES} 2016 -
+  18th International Conference, Santa Barbara, CA, USA, August 17-19, 2016,
+  Proceedings}, pages 301--320. 2016.
+\newblock \doi{10.1007/978-3-662-53140-2_15}.
+
+\bibitem[SS16]{SS16}
+Peter Schwabe and Ko~Stoffelen.
+\newblock All the {AES} you need on {C}ortex-{M3} and {M4}.
+\newblock In \emph{Selected Areas in Cryptography -- {SAC 2016}} (edited by
+  Roberto Avanzi and Howard Heys), LNCS. Springer, 2016.
+
+\bibitem[Sto16a]{Sto16b}
+Ko~Stoffelen.
+\newblock Instruction scheduling and register allocation on {ARM} {Cortex-M}.
+\newblock In \emph{Software performance enhancement for encryption and
+  decryption, and benchmarking -- {SPEED-B}}. October 2016.
+
+\bibitem[Sto16b]{Sto16a}
+Ko~Stoffelen.
+\newblock Optimizing {S}-box implementations for several criteria using {SAT}
+  solvers.
+\newblock In \emph{Fast Software Encryption} (edited by Thomas Peyrin), volume
+  9783 of \emph{LNCS}, pages 140--160. Springer, 2016.
+\newblock \doi{10.1007/978-3-662-52993-5}.
+
+\bibitem[UW16]{uijlen2016kochen}
+Sander Uijlen and Bas Westerbaan.
+\newblock A kochen-specker system has at least 22 vectors.
+\newblock \emph{New Generation Computing}, 34(1-2):3--23, 2016.
+
+\bibitem[WW16]{ww16}
+Abraham Westerbaan and Bas Westerbaan.
+\newblock A universal property for sequential measurement.
+\newblock \emph{Journal of Mathematical Physics}, 57(9):092203, sep 2016.
+\newblock \doi{10.1063/1.4961526}.
+
+\end{thebibliography}

@@ -1,0 +1,13 @@
+@inproceedings{RCB16,
+  author    = {Joost Renes and Craig Costello and Lejla Batina},
+  title     = {Complete Addition Formulas for Prime Order Elliptic Curves},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2016 - 35th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Vienna, Austria, May 8-12, 2016, Proceedings, Part {I}},
+  pages     = {403--428},
+  year      = {2016},
+  crossref  = {DBLP:conf/eurocrypt/2016-1},
+  url       = {http://dx.doi.org/10.1007/978-3-662-49890-3_16},
+  doi       = {10.1007/978-3-662-49890-3_16},
+  timestamp = {Fri, 29 Apr 2016 15:20:18 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/eurocrypt/RenesCB16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}

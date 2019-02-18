@@ -1,0 +1,249 @@
+%% Saved with string encoding Unicode (UTF-8)
+
+%
+% Bibtex file for the Digital Systems section.
+%
+% Policy 
+% ======
+% - Please don't remove these comments (or use tools that do that).
+% - *** IMPORTANT ****
+%   Compile dis16.tex to check for bibtex errors.
+%       % pdflatex dis16
+%       % bibtex dis16
+%       % pdflatex dis16
+% - include Document Object Identifiers (doi) where available
+%   (check the publisher's website, or DBLP http://dblp.uni-trier.de)
+%    example: 
+%      doi = {10.10.123/456},
+%    non-example
+%      doi = {http://doi.org/10.10.123/456}, %% WRONG , url i.s.o. doi
+% - each group member inserts his/her own publications (for 2012)
+%   in this file
+% - no `to appear's''. Only published papers with full bibliographic
+%   data (volume/page numbers etc.)
+% - please use 'and' between ALL authors; not only between the last two!
+% - only published papers are put here---no ``to appear's''---with
+%   full bibliographic data (volume/page numbers etc.)
+% - there is no uniform labeling or coding style required
+% - uniformity for publications in the same journals/series (like
+%   LNCS) is appreciated
+% - if the publication *not* a refereed scientific publication,
+%   please add a 'class="<value>"' field, where <value> is one
+%   of the following:
+%
+%       Value    Meaning
+%       -----    -------
+%       Abs      Abstract
+%       Ann      Annotation
+%       Ext pre  Dissertation external preprint
+%       Int      Dissertation internal
+%       Int pre  Dissertation internal preprint
+%       Ext      Dissertation external
+%       Pat      Patent
+%       Oth      Other result of scientific activities
+%       Pop      Popular publication (intended for advanced layman)
+%       Vak      A publication written to spread knowledge
+%       Wet      A scientific publication refereed
+%       Wet non  A scientific publication non-refereed
+%       Report   An ICIS technical report
+
+@string{LNCS = {{LNCS}}}
+
+@article{ww16,
+    class = Wet,
+    doi = {10.1063/1.4961526},
+    year  = {2016},
+    month = {sep},
+    publisher = {{AIP} Publishing},
+    volume = {57},
+    number = {9},
+    pages = {092203},
+    author = {Abraham Westerbaan and Bas Westerbaan},
+    title = {A universal property for sequential measurement},
+    journal = {Journal of Mathematical Physics}
+}
+@article{uijlen2016kochen,
+    class = Wet,
+    title={A Kochen-Specker system has at least 22 vectors},
+    author={Uijlen, Sander and Westerbaan, Bas},
+    journal={New Generation Computing},
+    volume={34},
+    number={1-2},
+    pages={3--23},
+    year={2016},
+    publisher={Springer}
+}
+
+@inproceedings{CHRSS16,
+    author        = {Ming-Shing Chen and Andreas H\"ulsing and Joost Rijneveld and Simona Samardjiska and Peter Schwabe},
+    title         = {From 5-pass {MQ}-based identification to {MQ}-based signatures},
+    booktitle     = {Advances in Cryptology -- {ASIACRYPT 2016}},
+    editor        = {Jung Hee Cheon and Tsuyoshi Takagi},
+    publisher     = {Springer},
+    series        = {LNCS},
+    volume        = {10032},
+    year          = {2016},
+    pages         = {135--165},
+    doi           = {10.1007/978-3-662-53890-6_5},
+}
+
+@inproceedings{HRS16a,
+    author        = {Andreas H\"ulsing and Joost Rijneveld and Peter Schwabe},
+    title         = {{ARMed SPHINCS} -- Computing a 41{KB} signature in 16{KB} of {RAM}},
+    booktitle     = {Public Key Cryptography -- {PKC 2016}},
+    editor        = {Giuseppe Persiano and Bo-Yin Yang},
+    publisher     = {Springer},
+    series        = {LNCS},
+    volume        = {9614},
+    year          = {2016},
+    pages         = {446--470},
+    doi           = {10.1007/978-3-662-49384-7_17},
+}
+
+@inproceedings{HRS16b,
+    author        = {Andreas H\"ulsing and Joost Rijneveld and Fang Song},
+    title         = {Mitigating Multi-Target Attacks in Hash-based Signatures},
+    booktitle     = {Public Key Cryptography -- {PKC 2016}},
+    editor        = {Giuseppe Persiano and Bo-Yin Yang},
+    publisher     = {Springer},
+    series        = {LNCS},
+    volume        = {9614},
+    year          = {2016},
+    pages         = {387--416},
+    doi           = {10.1007/978-3-662-49384-7_15},
+}
+
+@InProceedings{LueksEH16,
+  author = 	 "Wouter Lueks and Maarten Everts and Jaap-Henk Hoepman",
+  title = 	 "Vote to Link: recovering from misbehaving anonymous users",
+  booktitle = "Workshop on Privacy in the Electronic Society (WPES 2016)",
+  year = 	 2016,
+  address = 	 "Vienna, Austria",
+  month =        oct # " 24",
+  localpdf =     "vote-to-link.pdf",
+  doi =          "https://doi.org/10.1145/2994620.2994634",
+  pages =        "111-122"}
+
+
+@InProceedings{colesky2016strategies,
+  author = 	 "Michael Colesky and Jaap-Henk Hoepman and Christiaan Hillen",
+  title = 	 "A Critical Analysis of Privacy Design Strategies",
+  booktitle = "2016 International Workshop on Privacy Engineering – IWPE'16 ",
+  year = 	 2016,
+  address = 	 "San Jose, CA, USA",
+  month = 	 may # " 26",
+  pages =        "33--40",
+  localpdf =     "iwpe-privacy-strategies.pdf"
+}
+
+@InProceedings{hansen2015maturity,
+  author = 	 "Marit Hansen and Jaap-Henk Hoepman and Meiko Jensen",
+  title = 	 "Towards Measuring Maturity of Privacy-Enhancing Technologies",
+  booktitle = "Annual Privacy Forum (APF 2015)",
+  year = 	 2016,
+  series =       LNCS # "9484",
+  pages =        "3--20",
+  localpdf =     "pet-maturity.pdf"
+}
+
+@Proceedings{ifipsec2016,
+  title = 	 "ICT Systems Security and Privacy Protection. 31st
+                  IFIP TC 11 International Conference, SEC 2016,
+                  Ghent, Belgium, May 30 - June 1, 2016, Proceedings",
+  year = 	 2016,
+  editor = 	 "J.-H. Hoepman and Stefan Katzenbeisser",
+  volume = 	 471,
+  series = 	 "IFIP Advances in Information and Communication Technology",
+  publisher = "Springer",
+  url = "https://link.springer.com/content/pdf/10.1007%2F978-3-319-33630-5.pdf"}
+
+
+@InProceedings{lueks2015revocable-cases,
+  author = 	 "Wouter Lueks and Maarten Everts and Jaap-Henk Hoepman",
+  title = 	 "Revocable Privacy: Principles, Use Cases, and Technologies",
+  booktitle = "Annual Privacy Forum (APF 2015)",
+  year = 	 2016,
+  series =       LNCS # "9484",
+  localpdf =     "rp-use.pdf", 
+  pages =        "124--143"
+}
+
+@conference{Sto16b,
+    author      = {Ko Stoffelen},
+    title       = {Instruction Scheduling and Register Allocation on {ARM} {Cortex-M}},
+    booktitle   = {Software performance enhancement for encryption and decryption, and benchmarking -- {SPEED-B}},
+    year        = {2016},
+    month       = {October},
+}
+^no proceedings, although peer reviewed
+
+@inproceedings{SS16,
+    author      = {Peter Schwabe and Ko Stoffelen},
+    title       = {All the {AES} You Need on {C}ortex-{M3} and {M4}},
+    booktitle   = {Selected Areas in Cryptography -- {SAC 2016}},
+    editor      = {Roberto Avanzi and Howard Heys},
+    publisher   = {Springer},
+    series      = {LNCS},
+    year        = {2016},
+}
+^volume/pages/doi still unknown, post-proceedings should be there any time now
+
+@inproceedings{Sto16a,
+    author      = {Ko Stoffelen},
+    title       = {Optimizing {S}-box Implementations for Several Criteria using {SAT} Solvers},
+    booktitle   = {Fast Software Encryption},
+    editor      = {Thomas Peyrin},
+    publisher   = {Springer},
+    series      = {LNCS},
+    volume      = {9783},
+    pages       = {140--160},
+    year        = {2016},
+    doi         = {10.1007/978-3-662-52993-5},
+}
+
+@inproceedings{RCB16,
+  author    = {Joost Renes and
+               Craig Costello and
+               Lejla Batina},
+  title     = {Complete Addition Formulas for Prime Order Elliptic Curves},
+  booktitle = {Advances in Cryptology - {EUROCRYPT} 2016 - 35th Annual International
+               Conference on the Theory and Applications of Cryptographic Techniques,
+               Vienna, Austria, May 8-12, 2016, Proceedings, Part {I}},
+  pages     = {403--428},
+  year      = {2016},
+  url       = {http://dx.doi.org/10.1007/978-3-662-49890-3_16},
+  doi       = {10.1007/978-3-662-49890-3_16},
+  timestamp = {Fri, 29 Apr 2016 15:20:18 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/eurocrypt/RenesCB16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{RSSB16,
+  author    = {Joost Renes and
+               Peter Schwabe and
+               Benjamin Smith and
+               Lejla Batina},
+  title     = {$\mu$Kummer: Efficient Hyperelliptic Signatures and
+               Key Exchange on Microcontrollers},
+  booktitle = {Cryptographic Hardware and Embedded Systems - {CHES} 2016 - 18th International
+               Conference, Santa Barbara, CA, USA, August 17-19, 2016, Proceedings},
+  pages     = {301--320},
+  year      = {2016},
+  url       = {http://dx.doi.org/10.1007/978-3-662-53140-2_15},
+  doi       = {10.1007/978-3-662-53140-2_15},
+  timestamp = {Thu, 04 Aug 2016 12:04:03 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ches/RenesSSB16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+
+@inproceedings{MRB16,
+	author		= {Pedro Maat C. Massolino and Joost Renes and Lejla Batina},
+	title 		= {Implementing Complete Formulas on Weierstrass Curves in Hardware},
+	booktitle = {Security, Privacy, and Applied Cryptography Engineering: 6th International Conference, SPACE 2016, Hyderabad, India, December 14-18, 2016, Proceedings},
+	year 			= {2016},
+	publisher	= {Springer International Publishing},
+	pages			= {89--108},
+	doi 			= {10.1007/978-3-319-49445-6_5},
+	isbn			= {978-3-319-49445-6},
+	url 			= {http://dx.doi.org/10.1007/978-3-319-49445-6_5},
+}

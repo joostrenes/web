@@ -1,0 +1,924 @@
+%
+% Bibtex file for the Digital Systems section.
+%
+% Policy
+% ======
+% - each group member inserts his/her own publications (for 2010)
+%   in this file
+% - please use 'and' between ALL authors; not only between the last two!
+% - only published papers are put here---no ``to appear's''---with
+%   full bibliographic data (volume/page numbers etc.)
+% - there is no uniform labeling or coding style required
+% - uniformity for publications in the same journals/series (like
+%   LNCS) is appreciated
+% - if the publication *not* a refereed scientific publication,
+%   please add a 'class="<value>"' field, where <value> is one
+%   of the following:
+%
+%       Value    Meaning
+%       -----    -------
+%       Abs      Abstract
+%       Ann      Annotation
+%       Ext pre  Dissertation external preprint
+%       Int      Dissertation internal
+%       Int pre  Dissertation internal preprint
+%       Ext      Dissertation external
+%       Pat      Patent
+%       Oth      Other result of scientific activities
+%       Pop      Popular publication (intended for advanced layman)
+%       Vak      A publication written to spread knowledge
+%       Wet      A scientific publication refereed
+%       Wet non  A scientific publication non-refereed
+%       Report   An ICIS technical report
+
+% Journal & Conference shorthands
+
+@STRING{JLAP    = "Journ. of Logic and Algebraic Programming"}
+@STRING{JLAA    = "Journ. of Logic and Analysis"}
+@STRING{LNCS    = "Lect. Notes in Comp. Sci."}
+@STRING{SCP     = "Science of Comput. Progr."}
+@STRING{ENTCS   = "Electronic Notes in Theoretical Computer Science"}
+@STRING{AMAST = {Algebraic Methodology and Software Technology}}
+@STRING{APLAS = {Asian Programming Languages and Systems Symposium} }
+@STRING{FOSSACS = {Foundations of Software Science and Computation Structures}}
+@STRING{IWACO = {International Workshop on Aliasing, Confinement and Ownership in object-oriented programming} }
+@string{SPRINGER      = {Springer-Verlag}}
+@STRING{JCS     = "Journ. of Computer Security"}
+@STRING{LMCS    = "Logical Methods in Comp. Sci."}
+@STRING{WISTP    = "Workshop on Inf. Security Theory and Practices"}
+@STRING{NPY = " NOT PUBLISHED YET? "}
+
+@inproceedings{Andres:2010:QEST,
+  author    = {Miguel E. Andr{\'e}s and
+               Catuscia Palamidessi and
+               Peter van Rossum and
+               Ana Sokolova},
+  title     = {Information Hiding in Probabilistic Concurrent Systems},
+  booktitle = {QEST},
+  year      = {2010},
+  pages     = {17-26},
+  ee        = {http://dx.doi.org/10.1109/QEST.2010.11},
+  crossref  = {DBLP:conf/qest/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/qest/2010,
+  title     = {QEST 2010, Seventh International Conference on the Quantitative
+               Evaluation of Systems, Williamsburg, Viginia, USA, 15-18
+               September 2010},
+  booktitle = {QEST},
+  publisher = {IEEE Computer Society},
+  year      = {2010},
+  isbn      = {978-0-7695-4188-4},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{Andres:2010:TACAS,
+  author    = {Miguel E. Andr{\'e}s and
+               Catuscia Palamidessi and
+               Peter van Rossum and
+               Geoffrey Smith},
+  title     = {Computing the Leakage of Information-Hiding Systems},
+  booktitle = {TACAS},
+  year      = {2010},
+  pages     = {373-389},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-12002-2_32},
+  crossref  = {DBLP:conf/tacas/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/tacas/2010,
+  editor    = {Javier Esparza and
+               Rupak Majumdar},
+  title     = {Tools and Algorithms for the Construction and Analysis of
+               Systems, 16th International Conference, TACAS 2010, Held
+               as Part of the Joint European Conferences on Theory and
+               Practice of Software, ETAPS 2010, Paphos, Cyprus, March
+               20-28, 2010. Proceedings},
+  booktitle = {TACAS},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6015},
+  year      = {2010},
+  isbn      = {978-3-642-12001-5},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-12002-2},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{Alvim:2010:CONCUR,
+  author    = {M{\'a}rio S. Alvim and
+               Miguel E. Andr{\'e}s and
+               Catuscia Palamidessi},
+  title     = {Information Flow in Interactive Systems},
+  booktitle = {CONCUR},
+  year      = {2010},
+  pages     = {102-116},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-15375-4_8},
+  crossref  = {DBLP:conf/concur/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/concur/2010,
+  editor    = {Paul Gastin and
+               Fran\c{c}ois Laroussinie},
+  title     = {CONCUR 2010 - Concurrency Theory, 21th International Conference,
+               CONCUR 2010, Paris, France, August 31-September 3, 2010.
+               Proceedings},
+  booktitle = {CONCUR},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6269},
+  year      = {2010},
+  isbn      = {978-3-642-15374-7},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-15375-4},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@inproceedings{Alvim:2010:LICS,
+  author    = {M{\'a}rio S. Alvim and
+               Miguel E. Andr{\'e}s and
+               Catuscia Palamidessi},
+  title     = {Probabilistic Information Flow},
+  booktitle = {LICS},
+  year      = {2010},
+  pages     = {314-321},
+  ee        = {http://doi.ieeecomputersociety.org/10.1109/LICS.2010.53},
+  crossref  = {DBLP:conf/lics/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/lics/2010,
+  title     = {Proceedings of the 25th Annual IEEE Symposium on Logic in
+               Computer Science, LICS 2010, 11-14 July 2010, Edinburgh,
+               United Kingdom},
+  booktitle = {LICS},
+  publisher = {IEEE Computer Society},
+  year      = {2010},
+  isbn      = {978-0-7695-4114-3},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@article{Broek2010,
+ author	= {Fabian van den Broek},
+ title	= {Eavesdropping on GSM: state-of-affairs},
+ year	= {2010},
+ journal= {Wissec},
+ note = {\url{http://arxiv.org/abs/1101.0552}},
+ class	= {Oth}
+}
+
+
+@inproceedings{Mostowski:2009:MTE:1693296.1693318,
+ author = {Mostowski, Wojciech and Poll, Erik and Schmaltz, Julien and Tretmans, Jan and Wichers Schreur, Ronny},
+ title = {Model-Based Testing of Electronic Passports},
+ booktitle = {Proceedings of the 14th International Workshop on Formal Methods for Industrial Critical Systems},
+ series = {FMICS '09},
+ year = {2009},
+ isbn = {978-3-642-04569-1},
+ location = {Eindhoven, The Netherlands},
+ pages = {207--209},
+ numpages = {3},
+ doi = {10.1007/978-3-642-04570-7_19},
+ acmid = {1693318},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+}
+
+@InProceedings{hoepman2010roadpricing,
+  author =   "Jaap-Henk Hoepman and George Huitema",
+  title =    "Privacy Enhanced Fraud Resistant Road Pricing",
+  booktitle = "What Kind of Information Society? Governance,
+                  Virtuality, Surveillance, Sustainability, Resilience",
+  pages =    "202-213",
+  year =     2010,
+  volume =   328,
+  series =   "IFIP Advances in Information and Communication Technology",
+  address =      "Brisbane, Australia",
+  month =    sep,
+  publisher = "Springer"}
+
+@InProceedings{hoepman2007doublespending,
+  author =   "Jaap-Henk Hoepman",
+  title =    "Distributed Double Spending Prevention",
+  booktitle =    "15th Int.\ Workshop on Security Protocols 2007",
+  editor =       "B. Christianson and B. Crispo and J. A. Malcolm and M. Roe",
+  year =     2010,
+  series =       LNCS # " 5964",
+  pages =        "152--165",
+}
+
+
+@INPROCEEDINGS{BatinaHJMV10,
+AUTHOR       = "L. Batina and J.-H. Hoepman and B. Jacobs and W. Mostowski and P. Vullers",
+TITLE        = "{Developing Efficient Blinded Attribute Certificates on Smart Cards via Pairings}",
+BOOKTITLE    = "Smart Card Research and Advanced Application Conference (CARDIS 2010)",
+EDITOR       = "Dieter Gollmann and Jean-Louis Lanet and Julien Iguchi-Cartigny",
+PUBLISHER    = SPRINGER,
+SERIES       = LNCS,
+NUMBER       = 6035,
+PAGES        = "209--222",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{GarciaRossum,
+AUTHOR       = "Flavio D. Garcia and Peter van Rossum",
+TITLE        = "{Modeling Privacy for Off-Line RFID Systems cards via pairings}",
+PAGES        = "194--208",
+BOOKTITLE    = "Smart Card Research and Advanced Application Conference (CARDIS 2010)",
+EDITOR       = "Dieter Gollmann and Jean-Louis Lanet and Julien Iguchi-Cartigny",
+PUBLISHER    = SPRINGER,
+SERIES       = LNCS,
+NUMBER       = 6035,
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{LBSV10a,
+AUTHOR =       {Y.K. Lee and L. Batina and D. Singel\'{e}e and I. Verbauwhede},
+TITLE =        {Low-Cost Untraceable Authentication Protocols for RFID},
+BOOKTITLE =    {Proceedings of the 2010th ACM conference on Wireless network security (WiSec 2010)},
+YEAR =         {2010},
+editor =       {C. Nita-Rotaru and F. Stajano and S. Wetzel},
+address =      {Hoboken, NJ},
+month =        {March 22--24},
+publisher =    {ACM},
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{GBPV10,
+AUTHOR =       {B. Gierlichs and L. Batina and B. Preneel and I. Verbauwhede},
+TITLE =        {Revisiting Higher-Order DPA Attacks: Multivariate Mutual Information Analysis},
+BOOKTITLE =    {Topics in Cryptology - CT-RSA 2010, The Cryptographers' Track at the RSA Conference},
+YEAR =         {2010},
+editor =       {J. Pieprzyk},
+volume =       {5985},
+series =       LNCS,
+pages =        {221--234},
+publisher =    SPRINGER,
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{LSB+10,
+AUTHOR =       {Y. Li and K. Sakiyama and L. Batina and D. Nakatsu and K. Ohta},
+TITLE =        {Power Variance Analysis Breaks a Masked ASIC Implementations of AES},
+BOOKTITLE =    {Design, Automation \& Test in Europe (DATE 2010)},
+YEAR =         {2010},
+pages = "1059--1064",
+publisher =    {IEEE},
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{LBSV10b,
+AUTHOR =       {Y.K. Lee and L. Batina and D. Singel\'{e}e and I. Verbauwhede},
+TITLE =        {WideWeak Privacy - Preserving RFID Authentication Protocols},
+BOOKTITLE =    {Lecture Notes of the Institute for Computer Sciences, Social Informatics and
+Telecommunications Engineering 45,
+Proceedings of International Conference on Mobile Lightweight Wireless Systems},
+YEAR =         {2010},
+editor =       {J. Alonso-Zarate and O. Hoffmann},
+publisher =    {Springer},
+CLASS        = "Wet"}
+
+
+@INPROCEEDINGS{FBB+10,
+AUTHOR =       {J. Fan and D.V. Bailey and L. Batina and T. Guneysu and C. Paar and I. Verbauwhede},
+TITLE =        {Breaking Elliptic Curves Cryptosystems using Reconfigurable Hardware},
+BOOKTITLE =    {Proceedings of 20th International Conference on Field Programmable Logic and Applications (FPL 2010)},
+YEAR =         {2010},
+editor =       {M.D. Santambrogio and J. Nurmi},
+address =      {Milano, Italy},
+month =        {Aug. 31st--Sep. 2nd},
+publisher =    {IEEE},
+CLASS        = "Wet"}
+
+
+@INPROCEEDINGS{BH+10,
+AUTHOR =       {L. Batina and J. Hogenboom and N. Mentens and J. Moelans and J. Vliegen},
+TITLE =        {{Side-channel evaluation of FPGA implementations of binary Edwards curves}},
+BOOKTITLE =    {ICECS, special session Cryptographic Hardware \& Embedded Systems},
+YEAR =         {2010},
+pages = "4",
+publisher =    {IEEE},
+CLASS        = "Wet"}
+
+@INBOOK{KBD+10,
+AUTHOR =       {M. Knezevi\'{c} and L. Batina and E. De Mulder and J. Fan and B. Gierlichs and Y.K. Lee and R. Maes and I. Verbauwhede},
+editor =       {S.S. Bhattacharyya and E.F. Deprettere and R. Leupers and J. Takala},
+TITLE =        {Handbook of Signal Processing Systems},
+CHAPTER =      {Signal Processing for Cryptography and Security Applications},
+PUBLISHER =    SPRINGER,
+YEAR =         {2010},
+number =       {XXXVIII},
+pages =       "161--177",
+edition =      {1st},
+CLASS        = "Wet"}
+
+@INBOOK{LBS+10,
+AUTHOR =       {Y.K. Lee and L. Batina D. Singel\'{e}e and B. Preneel and I. Verbauwhede},
+editor =       {A.-R. Sadeghi and D. Naccache},
+TITLE =        {Towards Hardware-Intrinsic Security},
+CHAPTER =      {Anti-counterfeiting, un-traceability and other security challenges for RFID systems: public-key based protocols and hardware},
+pages =        "237--257",
+PUBLISHER =    SPRINGER,
+YEAR =         {2010},
+number =       {CCCXC},
+edition =      {1st},
+CLASS        = "Wet"}
+
+@INBOOK{SB10,
+AUTHOR =       {K. Sakiyama and L. Batina},
+editor =       {I. Verbauwhede},
+CHAPTER =      {Arithmetic for Public-Key Cryptography},
+TITLE =        {Compact Public Key implementations for RFID and sensor nodes},
+PUBLISHER =    SPRINGER,
+YEAR =         {2010},
+number =       {ISBN 978-0-387-71827-9},
+pages =       "63--78",
+edition =      {1st},
+CLASS        = "Wet"}
+
+@INBOOK{BSV10,
+AUTHOR =       {L. Batina and K. Sakiyama and I. Verbauwhede},
+editor =       {I. Verbauwhede},
+CHAPTER =      {Secure Integrated Circuits and Systems},
+TITLE =        {Compact Public Key implementations for RFID and sensor nodes},
+PUBLISHER =    SPRINGER,
+YEAR =         {2010},
+number =       {ISBN 978-0-387-71827-9},
+pages =       "179--196",
+edition =      {1st},
+CLASS        = "Wet"}
+
+
+
+@INPROCEEDINGS{Jacobs10a,
+AUTHOR       = "B. Jacobs",
+TITLE        = "{From Coalgebraic to Monoidal Traces}",
+BOOKTITLE    = "Coalgebraic Methods in Computer Science",
+EDITOR       = "B. Jacobs and M. Niqui and J. Rutten and A. Silva",
+PUBLISHER    = "Elsevier, Amsterdam",
+SERIES       = ENTCS,
+VOLUME       = 264,
+PAGES        = "125--140",
+YEAR         = "2010",
+DOI          = "10.1016/j.entcs.2010.07.017",
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{Jacobs10b,
+AUTHOR       = "B. Jacobs",
+TITLE        = "Architecture is Politics: Security and Privacy Issues in
+                Transport and Beyond",
+BOOKTITLE    = "Data Protection in a Profiled World",
+EDITOR       = "S. Gutwirth and Y. Poullet and P. De Hert",
+PUBLISHER    = "Springer, Berlin",
+PAGES        = "289--299",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+
+@ARTICLE{Jacobs10c,
+AUTHOR       = "B. Jacobs",
+TITLE        = "{Orthomodular lattices, Foulis Semigroups and Dagger Kernel Categories}",
+JOURNAL      = LMCS,
+VOLUME       = "6",
+number =    2,
+NOTE         = "\url{http://arxiv.org/pdf/0912.0931}",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{Jacobs10e,
+AUTHOR       = "B. Jacobs",
+TITLE        = "Convexity, duality, and effects",
+BOOKTITLE    = "IFIP Theoretical Computer Science 2010",
+EDITOR       = "C.S. Calude and V. Sassone",
+PUBLISHER    = "Springer, Boston",
+SERIES       = AICT,
+NUMBER       = "82(1)",
+PAGES        = "1--19",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+@INCOLLECTION{Jacobs10h,
+AUTHOR       = "B. Jacobs",
+TITLE        = "Het elektronisch pati{\"e}ntendossier vanuit
+                informatiebeveiligingsperspectief",
+EDITOR       = "G. Munnichs and M. Schuijff and M. Besters",
+BOOKTITLE    = "Databases. Over {ICT}-beloftes, informatiehonger en
+                digitale autonomie",
+PUBLISHER    = "Rathenau Instituut",
+PAGES        = "44--52",
+YEAR         = 2010,
+CLASS        = "Vak"}
+
+@ARTICLE{Jacobs10i,
+AUTHOR       = "B. Jacobs",
+TITLE        = "Moeten we echt alles opslaan?",
+JOURNAL      = "NRC",
+MONTH        = feb # " 3",
+NOTE         = "Opinion article",
+YEAR         = 2010,
+CLASS        = "Pop"}
+
+
+@ARTICLE{JacobsS10,
+AUTHOR       = "B. Jacobs and A. Sokolova",
+TITLE        = "Exemplaric Expressivity of Modal Logics",
+JOURNAL      = "Journ. of Logic and Computation",
+VOLUME       = "20(5)",
+PAGES        = "1041--1068",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+
+@BOOK{DommeringJSW10,
+AUTHOR       = "E. Dommering and B. Jacobs and K. Spaink and D. van Weelden",
+TITLE        = "Wie is U?",
+PUBLISHER    = "Nijgh \& Van Ditmar/XS4ALL",
+SERIES       = "The Next Ten Years, Deel 5",
+ADDRESS      = "Amsterdam",
+YEAR         = 2010,
+CLASS        = "Vak"}
+
+@ARTICLE{HeunenJ10a,
+AUTHOR       = "C. Heunen and B. Jacobs",
+TITLE        = "Quantum Logic in Dagger Kernel Categories",
+JOURNAL      = "Order",
+VOLUME       = "27(2)",
+PAGES        = "177--212",
+DOI          = "10.1007/s11083-010-9145-5",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+@INPROCEEDINGS{HasuoJN10,
+AUTHOR       = "I. Hasuo, B. Jacobs and M. Niqui",
+TITLE        = "Coalgebraic Representation Theory of Fractals",
+BOOKTITLE    = "Mathematical Foundations of Programming Semantics",
+EDITOR       = "P. Selinger",
+PUBLISHER    = "Elsevier, Amsterdam",
+SERIES       = ENTCS,
+NUMBER       = "265",
+PAGES        = "351--368",
+DOI          = "doi:10.1016/j.entcs.2010.08.021",
+YEAR         = "2010",
+CLASS        = "Wet"}
+
+
+@inproceedings{ITP:diamond,
+author = {Bas Spitters and Eelis van der Weegen},
+title = {Type classes for mathematics in Type Theory},
+booktitle = {Interactive Theorem Proving, First International Conference, ITP2010},
+year = {2010},
+editor = {Matt Kaufmann and Lawrence Paulson},
+pages = {490--493},
+number = 6172,
+address =    {Edinburgh},
+month =      {July},
+publisher = SPRINGER,
+series=LNCS,
+CLASS        = "Wet"
+}
+
+@InProceedings{VS10b,
+author =     {F. Verbeek and J. Schmaltz},
+title =      {A Formal Proof of a Necessary and Sufficient Condition for Deadlock-Free Adaptive Networks},
+booktitle = {Interactive Theorem Proving, First International Conference, ITP2010},
+pages =      {67-82},
+year =   2010,
+editor = {Matt Kaufmann and Lawrence Paulson},
+number =     6172,
+series =     LNCS,
+address =    {Edinburgh},
+month =      {July},
+publisher = SPRINGER,
+note =   {Part of FloC 2010}
+}
+
+@inproceedings{AartsSV10,
+  author    = {F. Aarts and
+               J. Schmaltz and
+               F. W. Vaandrager},
+  title     = {Inference and Abstraction of the Biometric Passport},
+  booktitle = {International Symposium on Leveraging Applications of Formal Methods (ISoLA'10)},
+  year      = {2010},
+  series    = {LNCS},
+  volume    = {6415},
+  pages     = {673-686},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-16558-0_54},
+  crossref  = {DBLP:conf/isola/2010-1},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/isola/2010-1,
+  editor    = {Tiziana Margaria and
+               Bernhard Steffen},
+  title     = {Leveraging Applications of Formal Methods, Verification,
+               and Validation - 4th International Symposium on Leveraging
+               Applications, ISoLA 2010, Heraklion, Crete, Greece, October
+               18-21, 2010, Proceedings, Part I},
+  booktitle = {ISoLA (1)},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6415},
+  year      = {2010},
+  isbn      = {978-3-642-16557-3},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-16558-0},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@inproceedings{StypBS10,
+  author    = {S. von Styp and
+               H. C. Bohnenkamp and
+               J. Schmaltz},
+  title     = {A Conformance Testing Relation for Symbolic Timed Automata},
+  booktitle = {8th International Conference on Formal Modeling and Analysis of Timed Systems (FORMATS'10)},
+  series    = {LNCS},
+  volume    = {6246},
+  year      = {2010},
+  pages     = {243-255},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-15297-9_19},
+  crossref  = {DBLP:conf/formats/2010},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@proceedings{DBLP:conf/formats/2010,
+  editor    = {Krishnendu Chatterjee and
+               Thomas A. Henzinger},
+  title     = {Formal Modeling and Analysis of Timed Systems - 8th International
+               Conference, FORMATS 2010, Klosterneuburg, Austria, September
+               8-10, 2010. Proceedings},
+  booktitle = {FORMATS},
+  publisher = {Springer},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {6246},
+  year      = {2010},
+  isbn      = {978-3-642-15296-2},
+  ee        = {http://dx.doi.org/10.1007/978-3-642-15297-9},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+@article{Rieszspaces,
+title = "Constructive pointfree topology eliminates non-constructive representation theorems from {R}iesz space theory",
+author = "Bas Spitters",
+note = "\url{http://arxiv.org/abs/0807.2454}",
+journal = "Order",
+doi="10.1007/s11083-010-9147-3",
+url = "http://arxiv.org/abs/0807.2454",
+volume=27,
+number=2,
+pages={225--233},
+year = 2010,
+CLASS        = "Wet"
+}
+
+@article{Riemann,
+title = "A computer verified, monadic, functional implementation of the integral",
+author = "Russell O'Connor and Bas Spitters",
+url = "http://arxiv.org/abs/0809.1552",
+journal ="Theoretical Computer Science",
+doi="10.1016/j.tcs.2010.05.031",
+volume=411,
+number={37},
+year=2010,
+pages={3386--3402},
+CLASS        = "Wet"
+}
+
+%Next year?
+@comment{Bohrification_ql,
+title = "Bohrification of operator algebras and quantum logic",
+author = "Chris Heunen and Nicolaas P. Landsman and Bas Spitters",
+year = "2010",
+journal ="Synthese",
+note = "preprint available at \url{http://arxiv.org/abs/0905.2275}" # NPY,
+url = "http://arxiv.org/abs/0905.2275",
+CLASS        = "Wet"
+}
+
+@article{Located-overt,
+title = "Locatedness and overt sublocales",
+author = "Bas Spitters",
+year = "2010",
+doi = {10.1016/j.apal.2010.07.002},
+journal = {Annals of Pure and Applied Logic},
+volume = 162,
+number = 1,
+pages = "36--54",
+CLASS        = "Wet"
+}
+
+@article{Banach-algs,
+author={Thierry Coquand and Bas Spitters},
+title={A Constructive Theory of {B}anach algebras},
+volume=2,
+number=11,
+year=2010,
+pages={1--15},
+journal={Logic and Analysis},
+CLASS        = "Wet"
+}
+
+@article{measurement,
+author={Bas Spitters},
+title={The space of measurement outcomes as a spectrum for non-commutative algebras},
+journal={EPTCS},
+volume=26,
+year=2010,
+pages= "127--133",
+doi={10.4204/EPTCS.26.12},
+CLASS        = "Wet"
+}
+
+%%% http://www.cambridge.org/gb/knowledge/isbn/item6047370/?site_locale=en_GB
+@comment{Bohrification,
+    booktitle = "Deep Beauty: Understanding the Quantum World through Mathematical Innovation",
+        title = "Bohrification",
+        author = "Chris Heunen and Nicolaas P. Landsman and Bas Spitters",
+        year = "2010",
+    editor = "Hans Halvorson",
+        url = "http://arxiv.org/abs/0909.3468",
+    publisher = {Cambridge University Press},
+    isbn = {9781107005709},
+    note = NPY,
+    CLASS        = "Wet"
+}
+
+@article{Metric-complements,
+title = "Metric complements of overt closed sets",
+author = "Thierry Coquand and Erik Palmgren and Bas Spitters",
+journal = "Mathematical Logic Quarterly",
+year = "2010",
+note = "\url{http://arxiv.org/abs/0906.3433}" # NPY,
+url = "http://arxiv.org/abs/0906.3433",
+CLASS        = "Wet"
+}
+
+@InProceedings{hoepman2010optimisations,
+author =     "Jaap-Henk Hoepman and Bart Jacobs and Pim Vullers",
+title =      "{Privacy and Security Issues in e-Ticketing: Optimisation of Smart Card-based Attribute-proving}",
+year =   2010,
+booktitle = "Workshop on Foundations of Security and Privacy (FCS-PrivMod)",
+address =      "Edinburgh, UK",
+month =        jul # " 14--15",
+note = NPY,
+}
+
+@InProceedings{hoepman2010practical-rfid,
+author =     "Jaap-Henk Hoepman and Rieks Joosten",
+title =      "{Practical Schemes For Privacy \& Security Enhanced RFID (extended abstract)}",
+year =   2010,
+booktitle = "4th "# WISTP,
+address =    "Passau, Germany",
+month =      apr # " 12--14",
+publisher = SPRINGER,
+pages = "138-53",
+  CLASS = {Wet},
+}
+
+@InProceedings{hoepman2010privacycoach,
+author =     "Gerben Broenink and Jaap-Henk Hoepman and Christian van 't Hof and Rob van Kranenburg and David Smits and Tijmen Wisman",
+title =      "{The Privacy Coach: Supporting customer privacy in the Internet of Things}",
+booktitle = "{Pervasive 2010 Conference Workshop on What can the Internet of Things do for the citizen?}",
+year =   2010,
+address =    "Helsinki, Finland",
+month =      may # " 17",
+pages =     "72--81",
+}
+@INPROCEEDINGS{CIKM.2010.kraaij,
+author={R.B. Trieschnigg and D. Hiemstra and F.M.G. de Jong and W. Kraaij},
+title={A Cross-lingual Framework for Monolingual Biomedical Information Retrieval},
+booktitle={Proceedings of the 19th ACM conference on Information and knowledge management (CIKM '10)},
+year=2010,
+pages={10},
+address={New York},
+keywords = {genomics,"Cross-Language Information Retrieval"},
+publisher={ACM},
+}
+@inproceedings{kraaij2010icwsm,
+author    = {Stephan Raaijmakers and Wessel Kraaij},
+title     = {Classifier Calibration for Multi-Domain Sentiment Classification},
+booktitle = {Proceedings of the Fourth International Conference on Weblogs and Social Media, ICWSM 2010, Washington, DC, USA, May 23-26, 2010},
+keywords = {Sentiment Mining},
+editor    = {William W. Cohen and Samuel Gosling},
+publisher = {The AAAI Press},
+year      = {2010},
+pdf        = {http://www.aaai.org/ocs/index.php/ICWSM/ICWSM10/paper/view/1494},
+}
+@inproceedings{kraaij2010trecvid,
+author= {Paul Over and George Awad and Martial Michel and Jonathan Fiscus and Wessel Kraaij and Alan F. Smeaton},
+title = {TRECVID 2009 -- Goals, Tasks, Data, Evaluation Mechanisms and Metrics},
+booktitle =    {Proceedings of TRECVID 2009},
+keywords={TRECVid, Video Retrieval, Multimedia Retrieval, IR Evaluation},
+year =     2010,
+organization = {NIST, USA},
+pdf={http://www-nlpir.nist.gov/projects/tvpubs/tv9.papers/tv9overview.pdf},
+}
+@inproceedings{kraaij2010QRU,
+author= {Maarten van der Heijden and Max Hinne and Suzan Verberne and Eduard Hoenkamp and Theo van der Weide and Wessel Kraaij},
+title = {When is a query a question? Reconstructing wh-requests from ad hoc-queries},
+booktitle = {Proceedings of the Query Representation and Understanding workshop at SIGIR 2010},
+keywords={Language Modeling, Attention Metadata, Query intent},
+year = 2010,
+pages={17--20},
+pdf={http://lands.let.ru.nl/~sverbern/papers/QRU_2010_When%20is%20a%20query%20a%20question.pdf}
+}
+@inproceedings{kraaij2010logCLEF,
+author={Suzan Verberne and Max Hinne and Maarten van der Heijden and Eduard Hoenkamp and Wessel Kraaij and Theo van der Weide},
+year={2010},
+title={{How does the Library Searcher Behave? A Contrastive Study of Library Search against Ad-hoc Search}},
+booktitle={{Proceedings of the Conference on Multilingual and Multimodal Information Access Evaluation (CLEF 2010), logCLEF workshop}},
+pdf={http://lands.let.ru.nl/~sverbern/papers/logCLEF_IFL.pdf},
+keywords={Attention metadata, Professional Search}
+}
+
+@inproceedings{Kraaij2010SSCS,
+ author = {Larson, Martha and Ordelman, Roeland and Metze, Florian and Kraaij, Wessel and de Jong, Franciska},
+ title = {Multimedia content with a speech track: ACM multimedia 2010 workshop on searching spontaneous conversational speech},
+ booktitle = {Proceedings of the international conference on Multimedia},
+ series = {MM '10},
+ year = {2010},
+ isbn = {978-1-60558-933-6},
+ location = {Firenze, Italy},
+ pages = {1747--1748},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/1873951.1874351},
+ doi = {http://doi.acm.org/10.1145/1873951.1874351},
+ acmid = {1874351},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {audio-visual retrieval, multimedia access, speech, speech recognition, spoken content},
+}
+
+
+@inproceedings{ShkaravskaKerstenVanEekelen2010,
+author = {Shkaravska, Olha and Kersten, Rody and van Eekelen, Marko},
+title = {Test-Based Inference of Polynomial Loop-Bound Functions},
+booktitle = {{PPPJ'10}: Proceedings of the 8th International Conference on the Principles and Practice of Programming in Java},
+year = {2010},
+isbn = {978-1-4503-0269-2},
+editor = {Krall, Andreas and M\"{o}ssenb\"{o}ck, Hanspeter},
+pages = {99--108},
+location = {Vienna, Austria},
+series = {{ACM} Digital Proceedings Series},
+  CLASS = {Wet},
+}
+
+@incollection{VanEekelenKerstenVanGastel,
+author = {van Eekelen, Marko and Kersten, Rody and van Gastel, Bernard},
+title = {Software en Energiegebruik},
+booktitle = {Duurzame {ICT}, Grondstof en energiebron voor een duurzame wereld},
+year = {2010},
+editor = {Roel Croes},
+isbn = {978-90-12-58228-5},
+pages = {23--33},
+publisher = {{SDU} Uitgevers},
+address = {Den Haag, The Netherlands},
+class = "Pop",
+}
+
+@incollection{CounotteVanEekelen,
+author = {van Eekelen, Marko and Kersten, Rody and van Gastel, Bernard},
+title = {Duutzaamheid van ICT-intensieve organisaties},
+booktitle = {Duurzame {ICT}, Grondstof en energiebron voor een duurzame wereld},
+year = {2010},
+editor = {Roel Croes},
+isbn = {978-90-12-58228-5},
+pages = {117-138},
+publisher = {{SDU} Uitgevers},
+address = {Den Haag, The Netherlands},
+class = "Pop",
+}
+
+@Article{bjsv10,
+author =     {J. Berendsen and D.N. Jansen and J. Schmaltz and F.W. Vaandrager},
+title =      {The Axiomatization of Override and Update},
+journal =    {J. of Applied Logic},
+year =   2010,
+volume =     8,
+number =     1,
+pages =      {141--150},
+   CLASS = {Wet},
+}
+
+@InProceedings{VS10a,
+author =     {F. Verbeek and J. Schmaltz},
+title =      {Formal Validation of Networks-on-Chips: Deadlock and Evacuation},
+booktitle = {Proc. of International Conference on Design, Automation and Test Europe (DATE'10)},
+pages =      {1701--1706},
+year =   2010,
+month =      {March},
+publisher = {ACM/IEEE},
+  CLASS = {Wet},
+}
+
+
+
+@InProceedings{KGG10,
+   author = {de Koning Gans, Gerhard and Garcia, Flavio},
+   title = {{Towards a Practical Solution to the RFID Desynchronization Problem}},
+   booktitle = {Radio Frequency Identification: Security and Privacy Issues},
+   series = {Lecture Notes in Computer Science},
+   editor = {Ors Yalcin, S.},
+   publisher = SPRINGER,
+   pages = {203-219},
+   volume = {6370},
+   doi = {10.1007/978-3-642-16822-2_17},
+   year = {2010},
+   CLASS = {Wet},
+}
+
+@ARTICLE{GTKGWS10,
+AUTHOR       = {Gerhard de Koning Gans and Eric Verheul},
+TITLE        = {{Best Effort and Practice Activation Codes}},
+JOURNAL      = {WISSEC},
+YEAR         = {2010},
+NOTE         = "\url{http://arxiv.org/pdf/1101.0698v1}",
+CLASS        = {Oth}
+}
+
+@INPROCEEDINGS{GRVS2010,
+  AUTHOR =       {Flavio D. Garcia and Peter van Rossum and Roel Verdult and Ronny Wichers Schreur},
+  TITLE =        {Dismantling {SecureMemory}, {CryptoMemory} and {CryptoRF}},
+  BOOKTITLE =    {17th ACM Conference on Computer and Communications Security (CCS 2010)},
+  YEAR =         {2010},
+  pages = {250--259},
+ publisher = {ACM},
+  CLASS = {Wet},
+}
+
+@techreport{MostowskiPoll2010,
+  author        = "{Mostowski}, W. and {Poll}, E.",
+  title         = {Electronic Passports in a Nutshell},
+  number        = "ICIS--R10004",
+  institution       = "Radboud University Nijmegen",
+  year          = "2010",
+  CLASS = {Wet non},
+}
+
+@incollection {MSE2010,
+   author = {Madlener, Ken and Smetsers, Sjaak and van Eekelen, Marko},
+   title = {A Formal Verification Study on the Rotterdam Storm Surge Barrier},
+   booktitle = {Formal Methods and Software Engineering},
+   series = {Lecture Notes in Computer Science},
+   editor = {Dong, Jin and Zhu, Huibiao},
+   publisher = {Springer Berlin / Heidelberg},
+   isbn = {},
+   pages = {287-302},
+   volume = {6447},
+   year = {2010},
+   class = wet
+}
+
+@Article{SPCM2010,
+  author =   {Heck, Petra and Klabbers, Martijn and van Eekelen, Marko},
+  title =    {A software product certification model},
+  journal =      {Software Quality Journal},
+  publisher =    {Springer Verlag},
+  year =     {2010},
+  volume =   {18},
+  number =   {1},
+  pages =    {37--55},
+  class = Wet
+}
+
+@proceedings{fopara10,
+  editors = {Olha Shkaravska and Marko van Eekelen},
+  title = {Selected, revised papers of FOPARA 2009 --- Intl. Workshop on Foundational and Practical Aspects of Resource Analysis, Revised Selected Papers},
+  address = {Eindhoven, The Netherlands},
+  year = {2010},
+  publisher = {Springer},
+  series = {Lecture Notes in Computer Science},
+  volume = {6324},
+  class = Wet
+}
+
+@techreport{2010-Shkaravska-PolynomialNonlinear,
+  author        = "{Shkaravska}, Olha and {Eekelen}, Marko van",
+  title         = "{Univariate Polynomial Solutions of Nonlinear Polynomial Recurrence Relations}",
+  number        = "ICIS--R10003",
+  month         = "April",
+  institution       = "Radboud University Nijmegen",
+  year          = "2010",
+  code          = "icis.ICIS-R10003",
+  research_group    = "ds",
+  class         = "Wet non"
+}
+
+@article{DBLP:journals/toms/RuttenE10,
+  author    = {Luc M. W. J. Rutten and
+               Marko C. J. D. van Eekelen},
+  title     = {Efficient and formally proven reduction of large integers
+               by small moduli},
+  journal   = {ACM Trans. Math. Softw.},
+  volume    = {37},
+  number    = {2},
+  year      = {2010},
+  doi        = {http://doi.acm.org/10.1145/1731022.1731026},
+  bibsource = {DBLP, http://dblp.uni-trier.de},
+  class = wet
+}
+
+
+@book{marko10.rede,
+author  = {Marko van Eekelen},
+title   = {Leven Lang Computer, Leven Lang Foeteren? Er valt nog veel te leren!},
+publisher   = {Open Universiteit Nederland, DataWyse Maastricht},
+year    = {2010},
+month   = {5 maart},
+note    = {Intreerede},
+isbn    = {978-90-5291-108-3},
+class   = wet
+}

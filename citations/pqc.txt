@@ -1,0 +1,11 @@
+@InProceedings{R18,
+    author="Renes, Joost",
+    editor="Lange, Tanja and Steinwandt, Rainer",
+    title="Computing Isogenies Between Montgomery Curves Using the Action of (0, 0)",
+    booktitle="Post-Quantum Cryptography",
+    year="2018",
+    publisher="Springer International Publishing",
+    pages="229--247",
+    isbn="978-3-319-79063-3"
+}
+

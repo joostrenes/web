@@ -1,0 +1,25 @@
+html {
+}
+
+body {
+    font-family: "DejaVu Serif", serif;
+    font-family: "Times New Roman", Times, serif;
+    font-family: "Arial", Helvetica, sans-serif;
+		font-size: 100%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+hr {
+    color: #be311a;
+    background-color: #be311a;
+    border-color: #be311a;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+	margin: 5px 0;
+}

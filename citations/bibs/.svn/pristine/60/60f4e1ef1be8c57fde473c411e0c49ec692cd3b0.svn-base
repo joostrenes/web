@@ -1,0 +1,921 @@
+%% Saved with string encoding Unicode (UTF-8)
+
+@string{amast = {Algebraic Methodology and Software Technology}}
+
+@string{aplas = {Asian Programming Languages and Systems Symposium}}
+
+@STRING{cma = "Computers \& Math. with Appl."}
+
+@string{entcs = {Electronic Notes in Theoretical Computer Science}}
+
+@string{eptcs = {Electronic Proceedings in Theoretical Computer Science}}
+
+@string{fop = {Found. of Physics}}
+
+@string{fossacs = {Foundations of Software Science and Computation Structures}}
+
+@string{iwaco = {International Workshop on Aliasing, Confinement and Ownership in object-oriented programming}}
+
+@string{jcs = {Journ. of Computer Security}}
+
+@string{jlaa = {Journ. of Logic and Analysis}}
+
+@string{jlap = {Journ. of Logic and Algebraic Programming}}
+
+@STRING{lics = "Logic in Computer Science"}
+
+@string{lmcs = {Logical Methods in Comp. Sci.}}
+
+@string{lncs = {LNCS}}
+
+@STRING{mfps = "Math. Found. of Programming Semantics"}
+
+@string{mscs = {Math. Struct. in Comp. Sci.}}
+
+@string{npy = {NOT PUBLISHED YET?}}
+
+@STRING{oup = "Oxford Univ. Press"}
+
+@string{scp = {Science of Comput. Progr.}}
+
+@string{springer = {Springer-Verlag}}
+
+@string{tcs = {Theor. Comp. Sci.}}
+
+@string{wistp = {Workshop on Inf. Security Theory and Practices}}
+
+
+
+
+
+
+@InProceedings{Staton14a,
+  author = 	 {Marcelo Fiore and Sam Staton},
+  title = 	 {Substitution, jumps, and algebraic effects},
+  booktitle = {Proceedings of CSL-LICS 2014: Joint meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science},
+  year = 	 2014,
+  publisher = {ACM},
+  note = 	 {doi:10.1145/2603088.2603163}}
+
+@InProceedings{Staton14b,
+  author = 	 {Paul B Levy and Sam Staton},
+  title = 	 {Transition systems over games},
+  booktitle = {Proceedings of CSL-LICS 2014: Joint meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science},
+  year = 	 2014,
+  publisher = {ACM},
+  note = 	 {doi:10.1145/2603088.2603150}}
+
+@Article{Staton14c,
+  author = 	 {Rasmus E {M\o gelberg} and Sam Staton},
+  title = 	 {Linear usage of state},
+  journal = 	 lmcs,
+  year = 	 2014,
+  volume = 	 10,
+  number = 	 1,
+  month = 	 {March},
+  note = 	 {doi:10.2168/LMCS-10(1:17)2014}}
+
+
+@InProceedings{Staton14d,
+  author = 	 {Sam Staton},
+  title = 	 {{F}reyd categories are Enriched {L}awvere Theories},
+  booktitle = {Proceedings of the Workshop on Algebra, Coalgebra and Topology},
+  year = 	 2014,
+  editor = 	 {John Power},
+  volume = 	 303,
+  series = 	 entcs,
+  pages = 	 {197--206},
+  month = 	 {March},
+  publisher = {Elsevier},
+  note = 	 {doi:10.1016/j.entcs.2014.02.010}}
+
+
+@inproceedings{ BCLS14,
+  author        = {Lejla Batina and {\L}ukasz Chmielewski and Louiza Papachristodoulou and Peter Schwabe and Michael Tunstall},
+  title         = {Online template attacks},
+  booktitle     = {Progress in Cryptology -- {INDOCRYPT 2014}},
+  editor        = {Willi Meier and Debdeep Mukhopadhyay},
+  publisher     = springer,
+  volume        = {8885},
+  series        = lncs,
+  year          = {2014},
+  pages         = {21--36},
+}
+
+@inproceedings{BCLS14a,
+  author        = {Daniel J. Bernstein and Chitchanok Chuengsatiansup and Tanja Lange and Peter Schwabe},
+  title         = {Kummer strikes back: new {DH} speed records},
+  booktitle     = {Advances in Cryptology -- {ASIACRYPT 2014}},
+  editor        = {Tetsu Iwata and Palash Sarkar},
+  publisher     = springer,
+  volume        = {8873},
+  series        = lncs,
+  year          = {2014},
+  pages         = {317--337},
+}
+
+@inproceedings{ CHL+14,
+  author        = {Yu-Fang Chen and Chang-Hong Hsu and Hsin-Hung Lin
+                  and Peter Schwabe and Ming-Hsien Tsai and Bow-Yaw
+                  Wang and Bo-Yin Yang and Shang-Yi Yang},
+  title         = {Verifying Curve25519 Software},
+  booktitle     = {Proceedings of the 2014 {ACM SIGSAC} Conference on Computer and Communications Security, {CCS'14}},
+  publisher     = {ACM},
+  year          = {2014},
+  pages         = {299--309},
+  note          = {\url{http://cryptojedi.org/papers/\#verify25519}},
+}
+
+@inproceedings{ CNRS13,
+  author        = {Chitchanok Chuengsatiansup and Michael Naehrig and Pance Ribarski and Peter Schwabe},
+  title         = {PandA: Pairings and Arithmetic},
+  booktitle     = {Pairing-Based Cryptography -- {Pairing 2013}},
+  editor        = {Zhenfu Cao and Fangguo Zhang},
+  series        = lncs,
+  volume        = {8365},
+  publisher     = springer,
+  year          = {2014},
+  pages         = {229--250},
+  note          = {\url{http://cryptojedi.org/papers/\#panda}},
+}
+
+@article{Morbitzer2014,
+  author    = {Mathias Morbitzer},
+  title     = {{TCP} Idle scans in {IPv6}},
+  journal   = {HitB magazine},
+  volume    = {4},
+  number    = {10},
+  year      = {2014},
+  pages     = {3-15},
+}
+
+@article{vdBroekPoll2014,
+    author = {Broek, F. van den and Poll, E.},
+    journal = {Privacy \& Informatie},
+    publisher = {Paris},
+    title = {Digitale handtekeningen: nieuwe technologie en
+      nieuwe wet- en regelgeving},
+    year = {2014},
+    volume = {1},
+    pages = {2--10},
+}
+
+@inproceedings{vdBroekEssos2014,
+	author={Broek, Fabian van den and Hond, Brinio and Cedillo Torres, Arturo},
+	year = {2014},
+	series=lncs,
+	booktitle={Engineering Secure Software and Systems},
+	title={{Security Testing of GSM Implementations}},
+	publisher=springer,
+	volume={8364},
+	pages={179-195}
+}
+
+@inproceedings{Lego2014,
+  author = {Georg Chalupar and Stefan Peherstorfer and Erik Poll and Joeri de Ruiter},
+  title = {Automated Reverse Engineering using {Lego}},
+  booktitle = {8th USENIX Workshop on Offensive Technologies (WOOT 2014)},
+  publisher = {USENIX Association},
+  year = {2014},
+}
+
+@misc{checksps14,
+  author = {Joeri de Ruiter},
+  title = {Automated algebraic analysis of structure-preserving signature schemes},
+  howpublished = {Cryptology ePrint Archive, Report 2014/590},
+  year = {2014},
+  note = {\url{http://eprint.iacr.org/}},
+  class = {Wet non}
+}
+
+@inproceedings{spsm14,
+  author = {Cooijmans, Tim and de Ruiter, Joeri and Poll, Erik},
+  title = {Analysis of Secure Key Storage Solutions on {Android}},
+  booktitle = {Proceedings of the 4th ACM Workshop on Security and Privacy in Smartphones \& Mobile Devices},
+  series = {SPSM '14},
+  year = {2014},
+  pages = {11--20},
+  doi = {10.1145/2666620.2666627},
+  publisher = {ACM},
+}
+
+
+@INPROCEEDINGS{Jacobs14a,
+AUTHOR       = "B. Jacobs",
+TITLE        = "Two of the Grand Changes through Computer and Network
+                Technology",
+BOOKTITLE    = "Privacy and Identity Management for Emerging Services and
+                Technologies",
+EDITOR       = "M. Hansen and J.-H. Hoepman and R. Leenes and D. Whitehouse",
+PAGES        = "1--11",
+VOLUME       = "421",
+PUBLISHER    = "Springer, Boston",
+SERIES       = "IFIP Adv. in Inf. and Comm. Techn.",
+YEAR         = 2014}
+
+
+@INPROCEEDINGS{Jacobs14b,
+AUTHOR       = "B. Jacobs",
+TITLE        = "{Dijkstra} Monads in Monadic Computation",
+BOOKTITLE    = "Coalgebraic Methods in Computer Science (CMCS 2014)",
+EDITOR       = "M. Bonsangue",
+PUBLISHER    = "Springer, Berlin",
+SERIES       = LNCS,
+NUMBER       = "8446",
+PAGES        = "135--150",
+YEAR         = 2014}
+
+
+@INPROCEEDINGS{JacobsS14a,
+AUTHOR       = "B. Jacobs and A. Silva",
+TITLE        = "Initial Algebras of Terms with Binding and Algebraic Structure",
+BOOKTITLE    = "Categories and Types in Logic, Language, and Physics",
+EDITOR       = "C. Casadio and B. Coecke and M. Moortgat and P. Scott",
+PAGES        = "211--234",
+PUBLISHER    = "Springer, Berlin",
+SERIES       = LNCS,
+NUMBER       = "8222",
+YEAR         = 2014}
+
+
+@INPROCEEDINGS{JacobsS14b,
+AUTHOR       = "B. Jacobs and A. Silva",
+TITLE        = "Automata Learning: A Categorical Perspective",
+BOOKTITLE    = "Horizons of the Mind. A Tribute to Prakash Panangaden",
+EDITOR       = "Breugel, F. van and E. Kashefi and C. Palamidessi and
+                J. Rutten ",
+PAGES        = "384--406",
+PUBLISHER    = "Springer, Berlin",
+SERIES       = LNCS,
+NUMBER       = "8464",
+YEAR         = 2014}
+
+
+
+@inproceedings{koning2014abcs,
+	Author = {Merel Koning and Paulan Korenhof and Gergely Alp\'ar and Jaap-Henk Hoepman},
+	Booktitle = {Balcells, J., Cerrillo i Mart{\'\i}nez, A., Peguera, M., Pe{\~n}a-L{\'o}pez, I., Pifarr{\'e} de Moner, MJ, \& Vilasau Solana, M.(coords.)(2014). A decade of transformations. Proceedings of the 10th International Conference on Internet, Law \& Politics. Universitat Oberta de Catalunya, Barcelona},
+	Pages = {357--374},
+	Title = {The {ABCs} OF {ABCs}: an analysis of attribute-based credentials in the light of data protection, privacy and identity},
+	Year = {2014}}
+
+
+
+@misc{koning2014abcs_HotPETs,
+	Author = {Merel Koning and Paulan Korenhof and Gergely Alp\'ar and Jaap-Henk Hoepman},
+	Howpublished = {Selected Papers from the 7th Hot Topics in Privacy Enhancing Technologies (HotPETs)},
+	Title = {The {ABCs} OF {ABCs}: an analysis of attribute-based credentials in the light of data protection, privacy and identity},
+	Year = {2014}}
+
+
+@incollection{batina2014highspeed,
+year={2014},
+isbn={978-3-319-13065-1},
+booktitle={Radio Frequency Identification: Security and Privacy Issues},
+series=lncs,
+editor={Saxena, Nitesh and Sadeghi, Ahmad-Reza},
+title={High-Speed Dating Privacy-Preserving Attribute Matching for RFID},
+url={http://dx.doi.org/10.1007/978-3-319-13066-8_2},
+publisher=springer,
+keywords={Attribute matching; RFID; Privacy; Unforgeabilitiy; Unlinkability},
+author={Batina, Lejla and Hermans, Jens and Hoepman, Jaap-Henk and Krasnova, Anna},
+pages={19-35},
+language={English}
+}
+
+@Article{hoepman2014anoniem-melden-b,
+  author = 	 "Jaap-Henk Hoepman and Bert-Jaap Koops and Wouter Lueks",
+  title = 	 "Anoniem misdaad melden via Internet: technische en
+                  juridische risico’s",
+  journal = 	 "Nederlands Juristenblad",
+  year = 	 2014,
+  localpdf =  "anoniem-melden.pdf"}
+
+@InProceedings{hoepman2014design-strategies,
+  author = 	 "Jaap-Henk Hoepman",
+  title = 	 "Privacy Design Strategies",
+  note = 	 "A preliminary version was
+                  presented at the Amsterdam Privacy Conference (APC
+                  2012) and the Privacy Law Scholars Conference (PLSC 2013)",
+  booktitle = "IFIP TC11
+                  29th Int. Conf. on Information Security (IFIP SEC 2014)",
+  year = 	 2014,
+  month = 	 jun # " 2--4",
+  pages =        "446--459",
+  preprinturl =          "http://arxiv.org/abs/1210.6621",
+  localps =      "pdp-sec.ps",
+  localpdf =     "pdp-sec.pdf"
+}
+
+@Proceedings{ifipsummerschool2013,
+  title = 	 "Privacy and Identity Management for Emerging
+                  Services and Technologies. 8th IFIP WG 9.2, 9.5,
+                  9.6/11.7, 11.4, 11.6 International Summer School,
+                  Nijmegen, The Netherlands, June 17-21, 2013, Revised
+                  Selected Papers",
+  year = 	 2014,
+  editor = 	 "M. Hansen and J.-H. Hoepman and R. Leenes and D. Whitehouse",
+  volume = 	 421,
+  series = 	 "IFIP Advances in Information and Communication Technology",
+  publisher = "Springer",
+  url = "https://www.springer.com/computer/security+and+cryptology/book/978-3-642-55136-9"}
+
+@InProceedings{lueks2014fsde,
+  author = 	 "Wouter Lueks and Jaap-Henk Hoepman and Klaus Kursawe",
+  title = 	 "Forward-Secure Distributed Encryption",
+  booktitle = "14th Privacy Enhancing Technologies Symposium (PETS 2014)",
+  year = 	 2014,
+  month = 	 jul # " 16--18",
+  pages =        "123--142",
+  address = 	 "Amsterdam",
+  localpdf =  "fsde.pdf"}
+
+@InProceedings{piedra2014abc-on-smartcards,
+  author = 	 "Antonio de La Piedra and Jaap-Henk Hoepman and Pim Vullers",
+  title = 	 "Towards a Full-Featured Implementation of Attribute
+                  Based Credentials on Smart Card",
+  booktitle =    "13th Int. Conf. on Cryptology and Network Security
+                  (CANS 2014) ",
+  year = 	 2014,
+  editor = 	 "Aggelos Kiayias  and Dimitris Gritzali",
+  month = 	 oct # " 22--24",
+  address = 	 "Heraklion, Crete, Greece",
+  pages =        "270--289",
+  localpdf =     "irma-implementation.pdf"
+}
+
+@incollection{kerstand2014lifting,
+  title={Lifting Adjunctions to Coalgebras to (Re)Discover Automata Constructions},
+  author={Kerstan, Henning and K{\"o}nig, Barbara and Westerbaan, Bram},
+  booktitle={Coalgebraic Methods in Computer Science},
+  pages={168--188},
+  year={2014},
+  publisher={Springer}
+}
+
+@inproceedings{katsaros2014supporting,
+  title = {Supporting smart electric vehicle charging with information-centric networking},
+  author = {Katsaros, Konstantinos V. and Chai, Wei Koong and Vieira, Barbara and Pavlou, George},
+  booktitle={Heterogeneous Networking for Quality, Reliability, Security and Robustness (QShine), 2014 10th International Conference on},
+  pages={174--179},
+  year={2014},
+  organization={IEEE},
+}
+
+@ARTICLE{ORT14a,
+  author   = {D. Ortiz-Yepes and R. Hermann and H. Steinauer and P.  Buhler},
+  journal  = {IBM Journal of Research and Development. Cybersecurity for a Smarter Planet},
+  title    = {Bringing strong authentication and transaction security to the realm of mobile devices},
+  year     = {2014},
+  month    = {January-February},
+  volume   = {58},
+  number   = {1},
+  pages    = {4:1--4:11},
+  ISSN     = {0018-8646},
+  publisher= {IBM}
+}
+
+@ARTICLE{ORT14b,
+  title= {A critical review of the {EMV} Payment Tokenisation Specification},
+  author= {D. Ortiz-Yepes},
+  journal= {Computer Fraud and \& Security},
+  pages= {5-12},
+  year= {2014},
+  volume= {10},
+  publisher = {Elsevier},
+}
+
+
+@inproceedings{ORT14d,
+  title= {Optimizing {TLS} for low Bandwidth Environments},
+  author= {D. Ortiz-Yepes},
+  booktitle = {Proceedings of the 7th International Symposium on Foundations \& Practice of Security (FPS 2014)},
+  series= lncs,
+  year= {2014},
+  publisher = springer,
+}
+
+@inproceedings{Stegeman14:codequality,
+ author = {Stegeman, Martijn and Barendsen, Erik and Smetsers, Sjaak},
+ title = {Towards an Empirically Validated Model for Assessment of Code Quality},
+ booktitle = {Proceedings of the 14th Koli Calling International Conference on Computing Education Research},
+ series = {Koli Calling '14},
+ year = {2014},
+ isbn = {978-1-4503-3065-7},
+ location = {Koli, Finland},
+ pages = {99--108},
+ numpages = {10},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {assessment, code quality, empirical validation, feedback, programming education, rubrics},
+}
+
+
+@incollection{sbox_pipe_indo14,
+year={2014},
+isbn={978-3-319-13038-5},
+booktitle={Progress in Cryptology -- INDOCRYPT 2014},
+series=lncs,
+editor={Meier, Willi and Mukhopadhyay, Debdeep},
+title={S-box Pipelining Using Genetic Algorithms for High-Throughput AES Implementations: How Fast Can We Go?},
+url={http://dx.doi.org/10.1007/978-3-319-13039-2_19},
+publisher=springer,
+keywords={Real-time cryptography; Genetic Algorithms (GAs); S-boxes},
+author={Batina, Lejla and Jakobovic, Domagoj and Mentens, Nele and Picek, Stjepan and de la Piedra, Antonio and Sisejkovic, Dominik},
+pages={322-337},
+language={English}
+}
+
+@inproceedings{DBLP:conf/gecco/PicekJ14,
+  author    = {Stjepan Picek and
+               Domagoj Jakobovic},
+  title     = {From fitness landscape to crossover operator choice},
+  booktitle = {Genetic and Evolutionary Computation Conference, {GECCO} '14, Vancouver,
+               BC, Canada, July 12-16, 2014},
+  pages     = {815--822},
+  year      = {2014},
+  url       = {http://doi.acm.org/10.1145/2576768.2598320},
+  timestamp = {Sat, 12 Jul 2014 14:58:40 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/gecco/PicekJ14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+%%  crossref  = {DBLP:conf/gecco/2014},
+
+@inproceedings{DBLP:conf/mipro/PicekBJC14,
+  author    = {Stjepan Picek and
+               Lejla Batina and
+               Domagoj Jakobovic and
+               Rafael Boix Carpi},
+  title     = {Evolving genetic algorithms for fault injection attacks},
+  booktitle = {37th International Convention on Information and Communication Technology,
+               Electronics and Microelectronics, {MIPRO} 2014, Opatija, Croatia,
+               May 26-30, 2014},
+  pages     = {1106--1111},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1109/MIPRO.2014.6859734},
+  timestamp = {Wed, 30 Jul 2014 10:46:02 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/mipro/PicekBJC14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+%%  crossref  = {DBLP:conf/mipro/2014},
+
+@inproceedings{DBLP:conf/ppsn/PicekBJ14,
+  author    = {Stjepan Picek and
+               Lejla Batina and
+               Domagoj Jakobovic},
+  title     = {Evolving DPA-Resistant Boolean Functions},
+  booktitle = {Parallel Problem Solving from Nature - {PPSN} {XIII} - 13th International
+               Conference, Ljubljana, Slovenia, September 13-17, 2014. Proceedings},
+  pages     = {812--821},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1007/978-3-319-10762-2_80},
+  timestamp = {Sun, 14 Sep 2014 14:57:45 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ppsn/PicekBJ14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+%%  crossref  = {DBLP:conf/ppsn/2014},
+
+@inproceedings{DBLP:conf/ppsn/PicekMBJ14,
+  author    = {Stjepan Picek and
+               Elena Marchiori and
+               Lejla Batina and
+               Domagoj Jakobovic},
+  title     = {Combining Evolutionary Computation and Algebraic Constructions to Find Cryptography-Relevant Boolean Functions},
+  booktitle = {Parallel Problem Solving from Nature - {PPSN} {XIII} - 13th International
+               Conference, Ljubljana, Slovenia, September 13-17, 2014. Proceedings},
+  pages     = {822--831},
+  year      = {2014},
+  url       = {http://dx.doi.org/10.1007/978-3-319-10762-2_81},
+  timestamp = {Sun, 14 Sep 2014 14:57:45 +0200},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/ppsn/PicekMBJ14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+%%  crossref  = {DBLP:conf/ppsn/2014},
+
+@incollection{glitch_evolved_cardis13,
+year={2014},
+isbn={978-3-319-08301-8},
+booktitle={Smart Card Research and Advanced Applications},
+series=lncs,
+editor={Francillon, Aurélien and Rohatgi, Pankaj},
+title={Glitch It If You Can: Parameter Search Strategies for Successful Fault Injection},
+url={http://dx.doi.org/10.1007/978-3-319-08302-5_16},
+publisher=springer,
+keywords={Fault analysis; Glitches; Smart cards; Self-adaptive algorithms; Evolutionary computation},
+author={Carpi, RafaelBoix and Picek, Stjepan and Batina, Lejla and Menarini, Federico and Jakobovic, Domagoj and Golub, Marin},
+pages={236-252},
+language={English}
+}
+
+@proceedings{conf/ches/2014,
+  editor    = {Lejla Batina and
+               Matthew Robshaw},
+  title     = {Cryptographic Hardware and Embedded Systems - {CHES} 2014 -
+16th International Workshop, Busan, South Korea, September 23-26, 2014.
+Proceedings},
+  series    = lncs,
+  volume    = {8731},
+  publisher = springer,
+  year      = {2014},
+}
+
+@inproceedings{JBEP14,
+  author    = {Ke Jiang and Lejla Batina and Petru Eles and Zebo Peng},
+  title     = {Robustness Analysis of Real-Time Scheduling Against Differential Power Analysis Attacks},
+  booktitle = {{IEEE} Computer Society Annual Symposium on VLSI, {ISVLSI} 2014, Tampa, FL, USA, July 9-11, 2014},
+  pages     = {450--455},
+  year      = {2014},
+}
+
+@incollection{kostas_rfid14,
+year={2014},
+isbn={978-3-319-13065-1},
+booktitle={Radio Frequency Identification: Security and Privacy Issues},
+series=lncs,
+editor={Saxena, Nitesh and Sadeghi, Ahmad-Reza},
+title={High Throughput in Slices: The Case of PRESENT, PRINCE and KATAN64 Ciphers},
+url={http://dx.doi.org/10.1007/978-3-319-13066-8_9},
+publisher=springer,
+keywords={PRESENT; PRINCE; KATAN64; AVR; ATtiny; High-speed assembly implementation},
+author={Papapagiannopoulos, Kostas},
+pages={137-155},
+language={English}
+}
+
+@incollection{picek_wistp14,
+year={2014},
+isbn={978-3-662-43825-1},
+booktitle={Information Security Theory and Practice. Securing the Internet of Things},
+volume={8501},
+series=lncs,
+editor={Naccache, David and Sauveron, Damien},
+title={S-box, SET, Match: A Toolbox for S-box Analysis},
+url={http://dx.doi.org/10.1007/978-3-662-43826-8_10},
+publisher=springer,
+keywords={Private-key Cryptography; Boolean functions; S-boxes; Cryptographic Properties},
+author={Picek, Stjepan and Batina, Lejla and Jakobovic, Domagoj and Ege, Bar{\i}\c{s} and Golub, Marin},
+pages={140-149},
+language={English}
+}
+
+@inproceedings{Picek_cs2_14,
+ author = {Picek, Stjepan and Ege, Bar{\i}\c{s} and Batina, Lejla and Jakobovic, Domagoj and Chmielewski, {\L}ukasz and Golub, Marin},
+ title = {On Using Genetic Algorithms for Intrinsic Side-channel Resistance: The Case of AES S-box},
+ booktitle = {Proceedings of the First Workshop on Cryptography and Security in Computing Systems},
+ series = {CS2 '14},
+ year = {2014},
+ isbn = {978-1-4503-2484-7},
+ location = {Vienna, Austria},
+ pages = {13--18},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/2556315.2556319},
+ acmid = {2556319},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {S-box, block ciphers, genetic algorithms, side-channel analysis, transparency order}
+} 
+
+@INPROCEEDINGS{picek_host14,
+author={Picek, Stjepan and Ege, Bar{\i}\c{s} and Papagiannopoulos, Kostas and Batina, Lejla and Jakobovic, Domagoj},
+booktitle={Hardware-Oriented Security and Trust (HOST), 2014 IEEE International Symposium on},
+title={Optimality and beyond: The case of 4x4 S-boxes},
+year={2014},
+month={May},
+pages={80-83},
+keywords={affine transforms;cryptography;DPA-related properties;PRESENT S-boxes;PRINCE S-boxes;affine transformation;delta uniformity;lookup- table implementations;nonlinearity value;side-channel resistance;transparency order;Boolean functions;Ciphers;Computer science;Genetic algorithms;Resistance}
+}
+
+@INPROCEEDINGS{ege_fdtc14,
+author={Korak, Thomas and Hutter, Michael and Ege, Bar{\i}\c{s} and Batina, Lejla},
+booktitle={Fault Diagnosis and Tolerance in Cryptography (FDTC), 2014 Workshop on},
+title={Clock Glitch Attacks in the Presence of Heating},
+year={2014},
+month={Sept},
+pages={104-114},
+keywords={Circuit faults;Clocks;Field programmable gate arrays;Heating;Microcontrollers;Performance evaluation;Registers;ATmega;AVR;Fault attacks;glitches;heating;non-invasive;temperature}
+}
+
+@incollection{picek_confusion_indo14,
+year={2014},
+isbn={978-3-319-13038-5},
+booktitle={Progress in Cryptology -- INDOCRYPT 2014},
+series={Lecture Notes in Computer Science},
+editor={Meier, Willi and Mukhopadhyay, Debdeep},
+title={Confused by Confusion: Systematic Evaluation of DPA Resistance of Various S-boxes},
+url={http://dx.doi.org/10.1007/978-3-319-13039-2_22},
+publisher={Springer International Publishing},
+author={Picek, Stjepan and Papagiannopoulos, Kostas and Ege, Bar{\i}\c{s} and Batina, Lejla and Jakobovic, Domagoj},
+pages={374-390},
+language={English}
+}
+
+@article {resana,
+  author = {Kersten, Rody W. J. and van Gastel, Bernard E. and Shkaravska, Olha and Montenegro, Manuel and van Eekelen, Marko C. J. D.},
+  title = {{ResAna}: a resource analysis toolset for (real-time) {JAVA}},
+  journal = {Concurrency and Computation: Practice and Experience},
+  volume = {26},
+  number = {14},
+  issn = {1532-0634},
+  url = {http://dx.doi.org/10.1002/cpe.3154},
+  doi = {10.1002/cpe.3154},
+  pages = {2432--2455},
+  keywords = {resource analysis, polynomial interpolation, ranking function, loop bounds, heap bounds, stack bounds},
+  year = {2014},
+}
+
+@inproceedings{fopara14-kersten,
+ author    = "{Kersten}, Rody and {Parisen Toldin}, Paolo and {van Gastel}, Bernard and {van Eekelen}, Marko",
+ title     = "A {Hoare} Logic for Energy Consumption Analysis",
+ booktitle = "Proceedings of the Third International Workshop on Foundational and Practical Aspects of Resource Analysis (FOPARA'13)",
+ year      = "2014",
+ series    = "LNCS",
+ volume    = "8552",
+ pages     = "93--109",
+ publisher = "Springer",
+}
+
+@inproceedings{foal14-schoolderman,
+ author = {Schoolderman, Marc and Neutelings, Jascha and Kersten, Rody and van Eekelen, Marko},
+ title = {{ECAlogic}: Hardware-parametric Energy-consumption Analysis of Algorithms},
+ booktitle = {Proceedings of the 13th Workshop on Foundations of Aspect-oriented Languages},
+ series = {FOAL '14},
+ year = {2014},
+ isbn = {978-1-4503-2798-5},
+ location = {Lugano, Switzerland},
+ pages = {19--22},
+ numpages = {4},
+ url = {http://doi.acm.org/10.1145/2588548.2588553},
+ doi = {10.1145/2588548.2588553},
+ acmid = {2588553},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {energy-consumption, green computation, green software, resource analysis, static analysis},
+}
+
+@inproceedings{joosten2014scalable,
+    title={Scalable liveness verification for communication fabrics},
+    author={Joosten, Sebastiaan JC and Schmaltz, Julien},
+    booktitle={Proceedings of the conference on Design, Automation \& Test in Europe},
+    pages={113},
+    year={2014},
+    organization={European Design and Automation Association}
+}
+
+@inproceedings{joosten2014initial,
+    title={Initial Experiments with TPTP-style Automated Theorem Provers on ACL2 Problems},
+    author={Joosten, Sebastiaan and Kaliszyk, Cezary and Urban, Josef},
+    booktitle={ACL2 Workhop},
+    volume={152},
+    pages={77--85},
+    year={2014}
+}
+
+@inproceedings{CarlosDesign,
+author = {Montes Portela, Carlos and Slootweg, Han and van Eekelen, Marko},
+title =  {{Structuring the design space of the ICT architecture for the Smart Grid}}, 
+booktitle = {{IEEE Recent Advances in Computational Systems 2013 (RAICS), Conference proceedings track VI Smart Systems}},
+location = {Trivandrum, India},
+year = {2013},
+month = {December},
+note = {IEEE Xplore Digital Library 2014},
+}
+
+@article{Recurr2014,
+  author    = {Olha Shkaravska and Marko van Eekelen},
+  title     = {Univariate Polynomial Solutions of Algebraic Difference Equations},
+  journal = {Journal of Symbolic Computation},
+  volume    = {1},
+  number    = {60},
+  pages = {15-28},
+  year      = {2014},
+  note = {Elsevier},
+ }
+
+@inproceedings{haag-CSEDU14,
+author = {Haag, Jens and Witte, Christian and Karsch, Stefan and Vranken, Harald and van Eekelen, Marko},
+title =  {{An exercise assistant for practical networking courses}}, 
+booktitle = {{Proceedings of the 6th International Conference On Computer Supported Education (CSEDU2014)}},
+location = {Barcelona, Spain},
+publisher = {SCITEPRESS Science and Technology Publications, 2014, ISBN 978-989-758-020-8},
+volume = {1},
+pages = {97-104},
+year = {2014},
+month = {April},
+note = {This paper received the CSEDU2014 Best Student Paper Award.},
+}
+
+@phdthesis{Madlener2014,
+	Author = {K. Madlener},
+	School = {Radboud University},
+	Title = {Formally Verified Modular Semantics},
+	Year = {2014},
+	Class = {Int},
+}
+
+@Article{CarlosEVS14,
+author  = {Montes Portela, Carlos and Geldtmeijer, Danny and Slootweg, Han and van Eekelen, Marko},
+title = {{Tecnologia da informacao e comunicacao para recarga intelligente}},
+journal = {Electricidade Moderna},
+year = 2014,
+pages = {36-43},
+CLASS = "VAK",
+}
+
+@techreport{2014-TNO-Smart-Meter-Chain,
+  author		= "{Paske}, B.J. te and {Cuijpers}, C.M.C. and {Eekelen}, M.C.J.D. van and {Poll}, E. and {Schoonhoven}, B.H.A. van",
+  title			= "{{Risicoanalyse Slimme Meter Keten, Privacy en Security in het nieuwe marktmodel}}",
+  month			= "March",
+  institution		= "TNO",
+  year			= "2014",
+  class			= "Report",
+}
+
+@techreport{2014-OU-banken-overzicht,
+  author		= "{Kiljan}, S. and {Cock}, D. de and {Eekelen}, M. van and {Vranken}, H.",
+  title			= "{{Security of Online Banking Systems}}",
+  month		= "March",
+  institution	= "TNO",
+  year		= "2014",
+  number  		= "TR-OU-INF-2014-01",
+  doi			= "http://portal.ou.nl/documents/114964/523334/TR-OU-INF-2014-01.pdf",
+  class		= "Report",
+}
+
+@inproceedings{2014-Eekelen-NIOC,
+  author	= "{Eekelen}, Marko van",
+  title		= "{{Onderzoek en Softwareprojecten, water en vuur? Ervaringen met onderzoeksaspecten en software projectonderwijs.}}",
+  booktitle  = "{{Proceedings Nationaal Informatica Onderwijs Congres 2013}}",
+  location   = {Arnhem, Nederland},
+  month	= "May",
+  year	= "2014",
+  pages	= {262-268},
+  class	= "vak",
+}
+
+@Article{Bits-chips-14,
+author  = {Marko van Eekelen and Sjaak Smetsers},
+title = {{Verificatie en Validatie van Veiligheidskritieke Systemen}},
+journal = {{Bits \& Chips, Themanummer Software Ontwikkeling}},
+year = 2014,
+volume = 4,
+pages = {42-45},
+CLASS = "VAK",
+}
+
+@techreport{kiljan2014security,
+ title={{Technical report: Security of Online Banking Systems}},
+ author={Kiljan, Sven and Simoens, Koen and De Cock, Danny and van
+Eekelen, Marko and Vranken, Harald},
+ year={2014},
+ month={February},
+ day={10},
+ url={https://kiljan.org/publications/Kiljan, et al. (2014) - Security
+of Online Banking Systems.pdf},
+  institution	= "Open Universiteit",
+class = "Report"
+}
+
+@article{verbeek_TPDS_14,
+  author = {Freek Verbeek and Julien Schmaltz},
+  title = {A Decision Procedure for Deadlock-Free Routing in Wormhole Networks},
+  journal = {IEEE Trans. Parallel Distrib. Syst},
+  volume = {25(8)},
+  pages = {1935--1944},
+  year = {2014},
+}
+
+@inproceedings{joosten_DIFTS_14,
+ author    = "S. Joosten and F. Verbeek and J. Schmaltz",
+ title     = "Wicked{X}mas: Designing and Verifying on-chip Communication Fabrics",
+ year      =  2014,
+ booktitle = {Proceedings of the International Workshop on Design and Implementation of Formal Tools and Systems (DIFTS'14)},
+ month	   = {october}
+}
+
+@inproceedings{vangastel_VLSI_SOC_14,
+ author    = "B. van Gastel and F. Verbeek and J. Schmaltz",
+ title     = "Inference of packet types in channels of micro-architectural communication networks",
+ year      =  2014,
+ booktitle = {Proceedings of the International Conference on Very Large Scale Integration (VLSI-SOC’14)},
+ month	   = {october}
+}
+
+@inproceedings{ramirez_SAFECOMP_14,
+ author    = "A. Garcia Ramirez and Schmaltz, J. and Verbeek, F. and Langenstein, B. and Blasum, H.",
+ title     = "On two models of noninterference: Rushby and Greve, Wilding, and Vanfleet",
+ year      =  2014,
+ booktitle = {Proceedings of the International Conference on Computer and Safety, reliability and security (SAFECOMP’14)},
+ month	   = {september}
+}
+
+@inproceedings{verbeek_VERISURE_14,
+ author    = "F. Verbeek and J. Schmaltz and S. Tverdyshev and H. Blasum and O. Havle",
+ title     = "Implicit Assumptions in a Model for Separation Kernels",
+ year      =  2014,
+ booktitle = {Proceedings of VeriSure: Verification and Assurance (VERISURE’14)},
+ month	   = {july}
+}
+
+@proceedings{verbeek_ACL2_14,
+  title    = {Proceedings of the Twelfth International Workshop on the ACL2 Theorem Prover and its Applications (ACL2'14)},
+  year     = {2014},
+  editor   = {F. Verbeek and J. Schmaltz},
+  volume   = {EPTCS 152},
+  month    = {july}
+}
+
+@article{vaandrager_EATCS_14,
+  author  = {F.W. Vaandrager and F. Verbeek},
+  title   = {Recreational Formal Methods: Designing Vacuum Cleaning Trajectories},
+  journal = {Bulletin of the EATCS},
+  volume  = {113:100-109},
+  month   = {june},
+  year    = {2014},
+} 
+
+@article{CISC-Kernel-AFP,
+  author  = {Freek Verbeek and Sergey Tverdyshev and Oto Havle and Holger Blasum and Bruno Langenstein and Werner Stephan and Yakoub Nemouchi and Abderrahmane Feliachi and Burkhart Wolff and Julien Schmaltz},
+  title   = {Formal Specification of a Generic Separation Kernel},
+  journal = {Archive of Formal Proofs},
+  month   = {july},
+  year    = 2014,
+}
+
+@inproceedings{2014_high_speed_dating,
+  author	   = {Lejla Batina and Jens Hermans and Jaap-Henk Hoepman and Anna Krasnova},
+  title	       = {High-Speed Dating Privacy-Preserving Attribute Matching for {RFID}},
+  booktitle	   = {Radio Frequency Identification, 2014. {RFIDS}ec 2014},
+  year	       = {2014},
+  publisher    = {Springer-Verlag Berlin Heidelberg}
+}
+
+@inproceedings{DBLP:dblp_journals/entcs/Rennela14,
+   author              = {Mathys Rennela},
+   title               = {Towards a Quantum Domain Theory: Order-enrichment and Fixpoints in W*-algebras.},
+   booktitle = {Proceedings of the 30th Conference on the Mathematical Foundations of Programming Semantics},
+   journal             = {Electr. Notes Theor. Comput. Sci.},
+   year                = {2014},
+   pages               = {289-307},
+   ee                  = {http://dx.doi.org/10.1016/j.entcs.2014.10.016},
+}
+
+@inproceedings{Cuijpers14,
+   author              = {Cuijpers, Colette and Schroers, Jessica},
+   title               = {{eIDAS} as guideline for the development of a pan {E}uropean {eID} framework in {FutureID}},
+   booktitle           = {Proceedings of the Open Identity Summit 2014 },
+   series              = {GI-Edition Lecture Notes in Informatics},
+   year                = {2014},
+   pages               = {23-38},
+   isbn                = {978-3-88579-631-2},
+   issn                = {1617-5468},
+}
+
+@incollection{hildebrandt2014location,
+  title={Location Data, Purpose Binding and Contextual Integrity: What’s the Message?},
+  author={Hildebrandt, Mireille},
+  booktitle={Protection of Information and the Right to Privacy-A New Equilibrium?},
+  pages={31--63},
+  year={2014},
+  publisher={Springer}
+}
+
+@incollection{hildebrandt2014radbruch,
+  title={Radbruch on the Origins of the Criminal Law: Punitive Interventions before Sovereignty},
+  author={Hildebrandt, Mireille},
+  booktitle={Foundational Texts in Modern Criminal Law},
+  editor={Dubber, Markus D.},
+  chapter={11},
+  pages={219--238},
+  year={2014},
+  publisher={Oxford University Press}
+}
+
+@incollection{hildebrandt201423,
+  title={Eccentric Positionality as a Precondition for the Criminal Liability Of Artificial Life Forms},
+  author={Hildebrandt, Mireille},
+  booktitle={Plessner’s Philosophical Anthropology},
+  editor={Mul, Jos de},
+  chapter={23},
+  pages={407--424},
+  year={2014},
+  publisher={Amsterdam University Press}
+}
+
+@incollection{hildebrandt2014dualism,
+  title={Dualism is Dead. Long Live Plurality (Instead of Duality)},
+  author={Hildebrandt, Mireille},
+  booktitle={The Onlife Manifesto},
+  pages={27--29},
+  year={2014},
+  publisher={Springer}
+}
+
+@incollection{hildebrandt2014ict-en-rechtstaat,
+  title={ICT en Rechtstaat},
+  author={Hildebrandt, Mireille},
+  editors={ Hof, S. van der and Lodder, Arno and Zwenne, Gerrit-Jan },
+  booktitle={Recht en Computer},
+  pages={25--45},
+  year={2014},
+  publisher={Kluwer: Deventer}
+}

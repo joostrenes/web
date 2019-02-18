@@ -1,0 +1,16 @@
+@InProceedings{CLMPR18,
+    author="Castryck, Wouter
+    and Lange, Tanja
+    and Martindale, Chloe
+    and Panny, Lorenz
+    and Renes, Joost",
+    editor="Peyrin, Thomas
+    and Galbraith, Steven",
+    title="{CSIDH: An Efficient Post-Quantum Commutative Group Action}",
+    booktitle="Advances in Cryptology -- ASIACRYPT 2018",
+    year="2018",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="395--427",
+    isbn="978-3-030-03332-3"
+}
