@@ -1,12 +1,13 @@
-@Inbook{RS17,
-    author="Renes, Joost and Smith, Benjamin",
-    editor="Takagi, Tsuyoshi and Peyrin, Thomas",
-    title="qDSA: Small and Secure Digital Signatures with Curve-Based Diffie--Hellman Key Pairs",
-    bookTitle="Advances in Cryptology -- ASIACRYPT 2017: 23rd International Conference on the Theory and Applications of Cryptology and Information Security, Hong Kong, China, December 3-7, 2017, Proceedings, Part II",
+@InProceedings{RS17,
+    author="Renes, Joost
+    and Smith, Benjamin",
+    editor="Takagi, Tsuyoshi
+    and Peyrin, Thomas",
+    title="{qDSA: Small and Secure Digital Signatures with Curve-Based Diffie--Hellman Key Pairs}",
+    booktitle="Advances in Cryptology -- ASIACRYPT 2017",
     year="2017",
     publisher="Springer International Publishing",
+    address="Cham",
     pages="273--302",
-    isbn="978-3-319-70697-9",
-    doi="10.1007/978-3-319-70697-9_10",
-    url="https://doi.org/10.1007/978-3-319-70697-9_10"
+    isbn="978-3-319-70697-9"
 }

@@ -1,14 +1,15 @@
-@inproceedings{MRB16,
-  author    = {Pedro Maat C. Massolino and Joost Renes and Lejla Batina},
-  title     = {Implementing Complete Formulas on Weierstrass Curves in Hardware},
-  booktitle = {Security, Privacy, and Applied Cryptography Engineering - 6th International Conference, {SPACE} 2016, Hyderabad, India, December 14-18, 2016, Proceedings},
-  pages     = {89--108},
-  year      = {2016},
-  crossref  = {DBLP:conf/space/2016},
-  url       = {http://dx.doi.org/10.1007/978-3-319-49445-6_5},
-  doi       = {10.1007/978-3-319-49445-6_5},
-  timestamp = {Fri, 09 Dec 2016 15:56:18 +0100},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/space/MassolinoRB16},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+@InProceedings{MRB16,
+    author="Massolino, Pedro Maat C.
+    and Renes, Joost
+    and Batina, Lejla",
+    editor="Carlet, Claude
+    and Hasan, M. Anwar
+    and Saraswat, Vishal",
+    title="{Implementing Complete Formulas on Weierstrass Curves in Hardware}",
+    booktitle="Security, Privacy, and Applied Cryptography Engineering",
+    year="2016",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="89--108",
+    isbn="978-3-319-49445-6"
 }
-

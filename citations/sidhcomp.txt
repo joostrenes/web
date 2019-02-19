@@ -1,13 +1,17 @@
-@Inbook{CJLNRU17,
-    author="Costello, Craig and Jao, David and Longa, Patrick and Naehrig, Michael and Renes, Joost and Urbanik, David",
-    editor="Coron, Jean-S{\'e}bastien and Nielsen, Jesper Buus",
-    title="Efficient Compression of SIDH Public Keys",
-    bookTitle="Advances in Cryptology -- EUROCRYPT 2017: 36th Annual International Conference on the Theory and Applications of Cryptographic Techniques, Paris, France, April 30 -- May 4, 2017, Proceedings, Part I",
+@InProceedings{CJLNRU17,
+    author="Costello, Craig
+    and Jao, David
+    and Longa, Patrick
+    and Naehrig, Michael
+    and Renes, Joost
+    and Urbanik, David",
+    editor="Coron, Jean-S{\'e}bastien
+    and Nielsen, Jesper Buus",
+    title="{Efficient Compression of SIDH Public Keys}",
+    booktitle="Advances in Cryptology -- EUROCRYPT 2017",
     year="2017",
     publisher="Springer International Publishing",
+    address="Cham",
     pages="679--706",
-    isbn="978-3-319-56620-7",
-    doi="10.1007/978-3-319-56620-7_24",
-    url="https://doi.org/10.1007/978-3-319-56620-7_24"
+    isbn="978-3-319-56620-7"
 }
-
