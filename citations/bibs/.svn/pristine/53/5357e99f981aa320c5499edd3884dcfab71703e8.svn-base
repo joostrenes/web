@@ -1,8 +1,0 @@
-\documentclass{article}
-\usepackage{url}
-\renewcommand{\encodingdefault}{T1}
-\begin{document}
-\nocite{*}
-\bibliographystyle{alphavonx}
-\bibliography{ds14}
-\end{document}
