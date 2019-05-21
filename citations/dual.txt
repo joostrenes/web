@@ -1,0 +1,7 @@
+@misc{NR19,
+    author = {Michael Naehrig and Joost Renes},
+    title = {Dual Isogenies and Their Application to Public-key Compression for Isogeny-based Cryptography},
+    howpublished = {Cryptology ePrint Archive, Report 2019/499},
+    year = {2019},
+    note = {\url{https://eprint.iacr.org/2019/499}},
+}
