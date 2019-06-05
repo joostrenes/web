@@ -31,3 +31,7 @@ ul {
 .navbar ul li a {
     color: black;
 }
+
+a:visited {
+    color: #be311a;
+}
