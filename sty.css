@@ -7,13 +7,13 @@ body {
 }
 
 .jumbotron {
-    background: rgba(190,49,26,0.2);
+    background: rgba(249,181,0,0.2);
 }
 
 hr {
-    color: #be311a;
-    background-color: #be311a;
-    border-color: #be311a;
+    color: #c9d200;
+    background-color: #c9d200;
+    border-color: #c9d200;
 }
 
 ol li {
