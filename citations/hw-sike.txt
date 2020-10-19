@@ -1,7 +1,12 @@
-@misc{MLRB20,
-    author = {Pedro Maat C. Massolino and Patrick Longa and Joost Renes and Lejla Batina},
-    title = {A Compact and Scalable Hardware/Software Co-design of SIKE},
-    howpublished = {Cryptology ePrint Archive, Report 2020/040},
-    year = {2020},
-    note = {\url{https://eprint.iacr.org/2020/040}},
+@article{MLRB20,
+    title={{A Compact and Scalable Hardware/Software Co-design of SIKE}}, 
+    volume={2020}, 
+    url={https://tches.iacr.org/index.php/TCHES/article/view/8551}, 
+    DOI={10.13154/tches.v2020.i2.245-271}, 
+    number={2}, 
+    journal={IACR Transactions on Cryptographic Hardware and Embedded Systems}, 
+    author={Massolino, Pedro Maat C. and Longa, Patrick and Renes, Joost and Batina, Lejla}, 
+    year={2020}, 
+    month={Mar.}, 
+    pages={245-271} 
 }

@@ -1,0 +1,7 @@
+@misc{BHRV20,
+    author = {Joppe W. Bos and Andreas Hülsing and Joost Renes and Christine van Vredendaal},
+    title = {Rapidly Verifiable XMSS Signatures},
+    howpublished = {Cryptology ePrint Archive, Report 2020/898},
+    year = {2020},
+    note = {\url{https://eprint.iacr.org/2020/898}},
+}

@@ -1,7 +1,19 @@
-@misc{CLNRV19,
-    author = {Craig Costello and Patrick Longa and Michael Naehrig and Joost Renes and Fernando Virdia},
-    title = {Improved Classical Cryptanalysis of the Computational Supersingular Isogeny Problem},
-    howpublished = {Cryptology ePrint Archive, Report 2019/298},
-    year = {2019},
-    note = {\url{https://eprint.iacr.org/2019/298}},
+@InProceedings{CLNRV20,
+    author="Costello, Craig
+    and Longa, Patrick
+    and Naehrig, Michael
+    and Renes, Joost
+    and Virdia, Fernando",
+    editor="Kiayias, Aggelos
+    and Kohlweiss, Markulf
+    and Wallden, Petros
+    and Zikas, Vassilis",
+    title="{Improved Classical Cryptanalysis of SIKE in Practice}",
+    booktitle="Public-Key Cryptography -- PKC 2020",
+    year="2020",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="505--534",
+    isbn="978-3-030-45388-6"
 }
+
