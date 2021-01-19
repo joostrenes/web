@@ -1,115 +1,76 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+---
+layout: page
+title: Software
+---
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="sty.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <title>Software</title>
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-        <div class="jumbotron">
-            <h1>Joost Renes</h1>
-        </div>
+<p>
+For build instructions check out the <em>readme</em> files in the respective archives.
+</p>
 
-        <hr>
-
-        <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html" >About me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="pubs.html" >Publications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="talks.html" >Talks</a></li>
-                    <li class="nav-item"><a class="nav-link" href="software.html" style="color: rgb(123,177,219);">Software</a></li>
-                    <li class="nav-item"><a class="nav-link" href="teaching.html" >Teaching</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <hr>
-    
-        <div class="container-fluid">
-    <h3> Software </h3>
-
-    <p>
-    For build instructions check out the <em>readme</em> files in the respective archives.
-    </p>
-
-    <dl>
-        <dt>Kronecker+</dt>
-        <dd>
-            Proof of concept implementation of the Kronecker+ algorithm
-            in Sage.
-            [<a href="software/kroneckerplus.tar.gz">Code</a>]
-        </dd>
-        <dt>Kummer Lines</dt>
-        <dd>
-            An implementation of the qDSA signature scheme based on 
-            two models of
-            the squared Kummer line on the ARM Cortex M0 microcontroller
-            (with C reference code).
-            [<a href="software/k25519.tar.gz">Code</a>]
-        </dd>
-        <dt>CSIDH</dt>
-        <dd>
-            Proof of concept implementation of the 
-            <a href="https://csidh.isogeny.org/">CSIDH</a>
-            key exchange (version 2018-08-26).
-            [<a href="software/csidh-180826.tar.xz">Code</a>]
-        </dd>
-        <dt>qDSA</dt>
-        <dd>
-            An implementation of the qDSA signature scheme based on Kummer varieties
-            for the AVR ATmega and ARM Cortex M0 microcontrollers,
-            targeting the 128-bit security level. </li>
-            <ul>
-                <li>Curve25519 
-                    [<a href="software/cref-g1.tar.gz">C ref.</a>]
-                    [<a href="software/avr-g1.tar.gz">ATmega</a>]
-                    [<a href="software/arm-g1.tar.gz">Cortex M0</a>]
-                </li>
-                <li>Gaudry-Schost
-                    [<a href="software/cref-g2.tar.gz">C ref.</a>]
-                    [<a href="software/avr-g2.tar.gz">ATmega</a>]
-                    [<a href="software/arm-g2.tar.gz">Cortex M0</a>]
-                </li>
-            </ul>
-        </dd>
-        <dt>SIDH Public-key Compression</dt>
-        <dd>
-            Integrated into 
-            [<a href="software/SIDHv20.tar.gz">SIDH v2.0</a>]
-            which has since been superseded by
-            <a href="https://github.com/Microsoft/PQCrypto-SIDH">SIDH v3.0</a>
-            (SIKE).
-        </dd>
-        <dt>&#956;Kummer</dt>
-        <dd>
-            An implementation of efficient signatures and key-exchange schemes
-            for the AVR ATmega and ARM Cortex M0 microcontrollers, 
-            targeting the 128-bit security level. </li>
-            [<a href="software/mukummer-avr.tar.gz">ATmega</a>]
-            [<a href="software/mukummer-arm.tar.gz">Cortex M0</a>]
-        </dd>
-        <dt>Complete Formulas</dt>
-        <dd>
-            Magma verification code for complete formulas for
-            odd order short Weierstrass curves.
-            [<a href="software/completeformulas.tar.gz">Magma</a>]
-        </dd>
-    </dl>
-</div>
-
-
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
-</html>
+<dl>
+    <dt>Kronecker+</dt>
+    <dd>
+        Proof of concept implementation of the Kronecker+ algorithm
+        in Sage.
+        [<a href="{{ site.baseurl }}software/kroneckerplus.tar.gz">Code</a>]
+    </dd>
+    <dt>Kummer Lines</dt>
+    <dd>
+        An implementation of the qDSA signature scheme based on 
+        two models of
+        the squared Kummer line on the ARM Cortex M0 microcontroller
+        (with C reference code).
+        [<a href="{{ site.baseurl }}software/k25519.tar.gz">Code</a>]
+    </dd>
+    <dt>CSIDH</dt>
+    <dd>
+        Proof of concept implementation of the 
+        <a href="https://csidh.isogeny.org/">CSIDH</a>
+        key exchange (version 2018-08-26).
+        [<a href="{{ site.baseurl }}software/csidh-180826.tar.xz">Code</a>]
+    </dd>
+    <dt>qDSA</dt>
+    <dd>
+        An implementation of the qDSA signature scheme based on Kummer varieties
+        for the AVR ATmega and ARM Cortex M0 microcontrollers,
+        targeting the 128-bit security level. </li>
+        <ul>
+            <li>Curve25519 
+                [<a href="{{ site.baseurl }}software/cref-g1.tar.gz">C ref.</a>]
+                [<a href="{{ site.baseurl }}software/avr-g1.tar.gz">ATmega</a>]
+                [<a href="{{ site.baseurl }}software/arm-g1.tar.gz">Cortex M0</a>]
+            </li>
+            <li>Gaudry-Schost
+                [<a href="{{ site.baseurl }}software/cref-g2.tar.gz">C ref.</a>]
+                [<a href="{{ site.baseurl }}software/avr-g2.tar.gz">ATmega</a>]
+                [<a href="{{ site.baseurl }}software/arm-g2.tar.gz">Cortex M0</a>]
+            </li>
+        </ul>
+    </dd>
+    <dt>SIDH Public-key Compression</dt>
+    <dd>
+        Integrated into 
+        [<a href="{{ site.baseurl }}software/SIDHv20.tar.gz">SIDH v2.0</a>]
+        which has since been superseded by
+        <a href="https://github.com/Microsoft/PQCrypto-SIDH">SIDH v3.0</a>
+        (SIKE).
+    </dd>
+    <dt>&#956;Kummer</dt>
+    <dd>
+        An implementation of efficient signatures and key-exchange schemes
+        for the AVR ATmega and ARM Cortex M0 microcontrollers, 
+        targeting the 128-bit security level. </li>
+        [<a href="{{ site.baseurl }}software/mukummer-avr.tar.gz">ATmega</a>]
+        [<a href="{{ site.baseurl }}software/mukummer-arm.tar.gz">Cortex M0</a>]
+    </dd>
+    <dt>Complete Formulas</dt>
+    <dd>
+        Magma verification code for complete formulas for
+        odd order short Weierstrass curves.
+        [<a href="{{ site.baseurl }}software/completeformulas.tar.gz">Magma</a>]
+    </dd>
+</dl>
