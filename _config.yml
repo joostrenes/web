@@ -11,7 +11,7 @@ gems: [jekyll-paginate, jekyll-gist]
 
 # Setup
 title:            Joost Renes
-baseurl:          /
+baseurl:          https://github.com/joostrenes/web/
 
 author:
   name:           'Mark Otto'
