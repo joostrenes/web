@@ -108,11 +108,18 @@ a.sidebar-nav-item:focus {
  */
 
 @media (min-width: 48em) {
+  .sidebar-sticky::-webkit-scrollbar {
+    display: none;
+  }
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    bottom: 1rem;
     left:   1rem;
+    bottom: 1rem;
+    top:    1rem;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
 }
 
