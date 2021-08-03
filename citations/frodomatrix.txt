@@ -1,0 +1,7 @@
+@misc{BORSV21,
+    author       = {Joppe W. Bos and Maximilian Ofner and Joost Renes and Tobias Schneider and Christine van Vredendaal},
+    title        = {{The Matrix Reloaded: Multiplication Strategies in FrodoKEM}},
+    howpublished = {Cryptology ePrint Archive, Report 2021/711},
+    year         = {2021},
+    note         = {\url{https://ia.cr/2021/711}},
+}

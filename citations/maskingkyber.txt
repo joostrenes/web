@@ -1,0 +1,7 @@
+@misc{BGRSV21,
+    author       = {Joppe W. Bos and Marc Gourjon and Joost Renes and Tobias Schneider and Christine van Vredendaal},
+    title        = {{Masking Kyber: First- and Higher-Order Implementations}},
+    howpublished = {Cryptology ePrint Archive, Report 2021/483},
+    year         = {2021},
+    note         = {\url{https://ia.cr/2021/483}},
+}

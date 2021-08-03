@@ -1,7 +1,7 @@
 @misc{BRV20,
-    author = {Joppe W. Bos and Joost Renes and Christine van Vredendaal},
-    title = {{Polynomial Multiplication with Contemporary Co-Processors: Beyond Kronecker, Schönhage-Strassen & Nussbaumer}},
+    author       = {Joppe W. Bos and Joost Renes and Christine van Vredendaal},
+    title        = {{Post-Quantum Cryptography with Contemporary Co-Processors: Beyond Kronecker, Schönhage-Strassen & Nussbaumer}},
     howpublished = {Cryptology ePrint Archive, Report 2020/1303},
-    year = {2020},
-    note = {\url{https://eprint.iacr.org/2020/1303}},
+    year         = {2020},
+    note         = {\url{https://ia.cr/2020/1303}},
 }
