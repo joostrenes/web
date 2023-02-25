@@ -1,0 +1,16 @@
+@inproceedings{BRS22,
+    author = {Bos, Joppe W. and Renes, Joost and Sprenkels, Amber},
+    title = {Dilithium For Memory Constrained Devices},
+    year = {2022},
+    isbn = {978-3-031-17432-2},
+    publisher = {Springer-Verlag},
+    address = {Berlin, Heidelberg},
+    url = {https://doi.org/10.1007/978-3-031-17433-9_10},
+    doi = {10.1007/978-3-031-17433-9_10},
+    abstract = {We investigate the use of the Dilithium post-quantum digital signature scheme on memory-constrained systems. Reference and optimized implementations of Dilithium in the benchmarking framework pqm4 (Cortex-M4) require 50–100 KiB of memory, demonstrating the significant challenge to use Dilithium on small Internet-of-Things platforms. We show that compressing polynomials, using an alternative number theoretic transform, and falling back to the schoolbook method for certain multiplications reduces the memory footprint significantly. This results in the first implementation of Dilithium for which the recommended parameter set requires less than 7 KiB of memory for key and signature generation and less than 3 KiB of memory for signature verification. We also provide benchmark details of a portable implementation in order to estimate the performance impact when using these memory reduction methods.},
+    booktitle = {Progress in Cryptology - AFRICACRYPT 2022: 13th International Conference on Cryptology in Africa, AFRICACRYPT 2022, Fes, Morocco, July 18–20, 2022, Proceedings},
+    pages = {217–235},
+    numpages = {19},
+    keywords = {Dilithium, Memory optimization, Post-quantum cryptography},
+    location = {Fes, Morocco}
+}

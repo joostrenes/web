@@ -1,0 +1,10 @@
+@ARTICLE{ABDHKMNRRSV22,
+  author={Alvarenga, Eduardo and Brands, Jan R. and Doliwa, Peter and den Hartog, Jerry and Kraft, Erik and Medwed, Marcel and Nikov, Ventzislav and Renes, Joost and Rosso, Martin and Schneider, Tobias and Veshchikov, Nikita},
+  journal={IEEE Transactions on Emerging Topics in Computing}, 
+  title={Cyber Resilience for the Internet of Things: Implementations with Resilience Engines and Attack Classifications}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-16},
+  doi={10.1109/TETC.2022.3231692}}
+}

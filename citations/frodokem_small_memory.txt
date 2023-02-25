@@ -1,0 +1,8 @@
+@misc{cryptoeprint:2023/158,
+      author = {Joppe W. Bos and Olivier Bronchain and Frank Custers and Joost Renes and Denise Verbakel and Christine van Vredendaal},
+      title = {Enabling FrodoKEM on Embedded Devices},
+      howpublished = {Cryptology ePrint Archive, Paper 2023/158},
+      year = {2023},
+      note = {\url{https://eprint.iacr.org/2023/158}},
+      url = {https://eprint.iacr.org/2023/158}
+}

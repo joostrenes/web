@@ -1,0 +1,8 @@
+@misc{cryptoeprint:2022/1406,
+      author = {Melissa Azouaoui and Olivier Bronchain and Gaëtan Cassiers and Clément Hoffmann and Yulia Kuzovkova and Joost Renes and Markus Schönauer and Tobias Schneider and François-Xavier Standaert and Christine van Vredendaal},
+      title = {Leveling Dilithium against Leakage: Revisited Sensitivity Analysis and Improved Implementations},
+      howpublished = {Cryptology ePrint Archive, Paper 2022/1406},
+      year = {2022},
+      note = {\url{https://eprint.iacr.org/2022/1406}},
+      url = {https://eprint.iacr.org/2022/1406}
+}

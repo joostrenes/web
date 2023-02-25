@@ -1,0 +1,7 @@
+@incollection{BCRRSW22,
+  author    = {Joppe W. Bos and Brian Carlson and Joost Renes and Marius Rotaru and Amber Sprenkels and Geoffrey P. Waters},
+  title     = {Post-quantum secure boot on vehicle network processors},
+  booktitle = {20th escar Europe - The World's Leading Automotive Cyber Security Conference (15. - 16.11.2022)},
+  doi       = {10.13154/294-9372},
+  year      = {2022},
+}
